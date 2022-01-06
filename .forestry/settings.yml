@@ -19,32 +19,15 @@ sections:
   exclude: _index.md
   templates:
   - post
-- type: document
-  path: content/about/_index.md
-  label: About
-- type: document
-  path: content/pricing/_index.md
-  label: Pricing
-- type: document
-  path: content/contact/_index.md
-  label: Contact
-- type: document
-  path: content/faq/_index.md
-  label: FAQ
-- type: heading
-  label: All Pages
 - type: directory
   path: content
-  label: All Pages
+  label: Pages
   create: all
   match: "**/*"
   exclude: _index.md
   templates:
   - new-page
 
-- type: document
-  path: config/_default/menus.toml
-  label: Menu
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
