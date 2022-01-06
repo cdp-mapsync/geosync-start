@@ -23,7 +23,7 @@ sections:
   templates:
   - post
 - type: heading
-  label: Others Page
+  label: Other Pages
 - type: document
   path: content/about/_index.md
   label: About
