@@ -1,9 +1,8 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path: ''
+admin_path: "/static/admin"
 webhook_url: 
-sections:
 sections:
 - type: document
   path: content/_index.md
@@ -27,7 +26,6 @@ sections:
   exclude: _index.md
   templates:
   - new-page
-
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
