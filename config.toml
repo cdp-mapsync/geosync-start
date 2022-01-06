@@ -26,83 +26,57 @@ icon_font = "Font Awesome 5 Free"
 
 
 ############################# Menus ##############################
-# footer menu right
-[[menu.footer_right]]
-name = "Privacy Policy"
-url = "privacy-policy"
+[menu]
+  # main menu
+  [menu.main]
+  name = "Home"
+  url = "/"
+  weight = 1
 
-[[menu.footer_right]]
-name = "Terms & Conditions"
-url = "terms-conditions"
+  [menu.main]
+  name = "About"
+  url = "about"
+  weight = 2
 
-# footer menu middle
-[[menu.footer_middle]]
-name = "Pricing"
-url = "pricing"
+  [menu.main]
+  name = "Blog"
+  url = "blog"
+  weight = 3
 
-[[menu.footer_middle]]
-name = "Quick Start"
-url = "#"
+  [menu.main]
+  name = "Pricing"
+  url = "pricing"
+  weight = 4
 
-[[menu.footer_middle]]
-name = "Support"
-url = "#"
+  [menu.main]
+  name = "Contact"
+  url = "contact"
+  weight = 5
 
-# footer menu left
-[[menu.footer_left]]
-name = "About"
-url = "about"
+  [menu.main]
+  name = "Support"
+  url = "faq"
+  weight = 6
 
-[[menu.footer_left]]
-name = "Blog"
-url = "blog"
+  [menu.main]
+  name = "Help Center"
+  url = "faq"
+  weight = 7
+  parent = "Support"
 
-[[menu.footer_left]]
-name = "Contact"
-url = "contact"
+  [menu.main]
+  name = "FAQ"
+  url = "faq"
+  weight = 8
+  parent = "Support"
+    
+  [menu.footer_right]
+  name = "Privacy Policy"
+  url = "privacy-policy"
 
-# main menu
-[[menu.main]]
-name = "Home"
-url = "/"
-weight = 1
-
-[[menu.main]]
-name = "About"
-url = "about"
-weight = 2
-
-[[menu.main]]
-name = "Blog"
-url = "blog"
-weight = 3
-
-[[menu.main]]
-name = "Pricing"
-url = "pricing"
-weight = 4
-
-[[menu.main]]
-name = "Contact"
-url = "contact"
-weight = 5
-
-[[menu.main]]
-name = "Support"
-url = "faq"
-weight = 6
-
-[[menu.main]]
-name = "Help Center"
-url = "faq"
-weight = 7
-parent = "Support"
-
-[[menu.main]]
-name = "FAQ"
-url = "faq"
-weight = 8
-parent = "Support"
+  [menu.footer_right]
+  name = "Terms & Conditions"
+  url = "terms-conditions"
 
 
 ############################# Plugins ##############################
