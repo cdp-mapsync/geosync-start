@@ -26,6 +26,8 @@ icon_font = "Font Awesome 5 Free"
 
 
 ############################# Menus ##############################
+menu = ['main', 'footer_left', 'footer_middle', 'footer_right']
+
 # main menu
 [[menu.main]]
 name = "Home"
