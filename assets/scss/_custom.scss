@@ -1,0 +1,21 @@
+// This file is empty within the template
+// You can use it to override CSS from within your project
+
+.dropdown-menu {
+  margin-bottom: 0.5rem;
+}
+
+a.dropdown-item {
+  color: $text_color_dark;
+  font-weight: 600;
+  text-decoration: none;
+  background-color: transparent;
+  padding: 8px 15px;
+  text-align: center;
+}
+
+a.dropdown-item:hover {
+  color: $primary_color;
+  text-decoration: none;
+  background-color: transparent;
+}

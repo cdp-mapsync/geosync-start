@@ -1,0 +1,43 @@
+{{ define "main" }}
+
+{{ partial "page-header.html" . }}
+<!-- feature -->
+
+<section class="section pb-0">
+  <div class="container">
+    <div class="row justify-content-center">
+      {{ range $index, $element := .Params.columns }}
+        {{ with $element }}
+          {{ if eq $index 0}}
+            <div class="col-lg-6">
+              <p>{{ .content | markdownify }}</p>
+            </div>
+          {{ else if eq $index 1}}
+            <div class="col-lg-6">
+              <p>{{ .content | markdownify }}</p>
+            </div>
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<!-- screenshot -->
+{{ with .Params.screenshot }}
+{{ if .enable }}
+<section class="section pt-0 pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto text-center">
+        {{with .image}}<img src="{{ . | relURL }}" alt="" class="img-fluid mt-5" width="750px">{{end}}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /screenshot -->
+
+
+{{ end }}

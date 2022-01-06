@@ -1,0 +1,78 @@
+# main menu
+[[main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[main]]
+name = "About"
+url = "about"
+weight = 2
+
+[[main]]
+name = "Blog"
+url = "blog"
+weight = 3
+
+[[main]]
+name = "Pricing"
+url = "pricing"
+weight = 4
+
+[[main]]
+name = "Contact"
+url = "contact"
+weight = 5
+
+[[main]]
+name = "Support"
+url = "faq"
+weight = 6
+
+[[main]]
+name = "Help Center"
+url = "faq"
+weight = 7
+parent = "Support"
+
+[[main]]
+name = "FAQ"
+url = "faq"
+weight = 8
+parent = "Support"
+
+# footer menu left
+[[footer_left]]
+name = "About"
+url = "about"
+
+[[footer_left]]
+name = "Blog"
+url = "blog"
+
+[[footer_left]]
+name = "Contact"
+url = "contact"
+
+
+# footer menu middle
+[[footer_middle]]
+name = "Pricing"
+url = "pricing"
+
+[[footer_middle]]
+name = "Quick Start"
+url = "#"
+
+[[footer_middle]]
+name = "Support"
+url = "#"
+
+# footer menu right
+[[footer_right]]
+name = "Privacy Policy"
+url = "privacy-policy"
+
+[[footer_right]]
+name = "Terms & Conditions"
+url = "terms-conditions"

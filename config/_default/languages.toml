@@ -1,0 +1,13 @@
+############################# English ############################
+[en]
+languageName = "En"
+title = "GeoSync"
+contentDir = "content"
+weight = 1
+########### footer content ##########
+footer_menu_left = "Company"
+footer_menu_middle = "Product"
+footer_menu_right = "Policies"
+footer_content = "Flexible spatial framework <br> for data management"
+# copyright
+copyright = ""
