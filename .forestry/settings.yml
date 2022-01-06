@@ -7,9 +7,6 @@ sections:
 - type: document
   path: content/_index.md
   label: Home
-- type: document
-  path: content/blog/_index.md
-  label: Blog
 - type: directory
   path: content/blog
   label: Blog Post
@@ -23,7 +20,6 @@ sections:
   label: Pages
   create: all
   match: "**/*"
-  exclude: _index.md
   templates:
   - new-page
 upload_dir: static/images
