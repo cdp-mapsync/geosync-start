@@ -57,7 +57,6 @@ sections:
 - type: document
   path: config.toml
   label: Variables & Plugins
-  match: "**/*"
 - type: document
   path: config/_default/languages.toml
   label: Languages
