@@ -27,54 +27,81 @@ icon_font = "Font Awesome 5 Free"
 
 ############################# Menus ##############################
 [menu]
-  # main menu
-  [menu.main]
+  [[menu.main]]
   name = "Home"
   url = "/"
   weight = 1
 
-  [menu.main]
+  [[menu.main]]
   name = "About"
   url = "about"
   weight = 2
 
-  [menu.main]
+  [[menu.main]]
   name = "Blog"
   url = "blog"
   weight = 3
 
-  [menu.main]
+  [[menu.main]]
   name = "Pricing"
   url = "pricing"
   weight = 4
 
-  [menu.main]
+  [[menu.main]]
   name = "Contact"
   url = "contact"
   weight = 5
 
-  [menu.main]
+  [[menu.main]]
   name = "Support"
   url = "faq"
   weight = 6
 
-  [menu.main]
+  [[menu.main]]
   name = "Help Center"
   url = "faq"
   weight = 7
   parent = "Support"
 
-  [menu.main]
+  [[menu.main]]
   name = "FAQ"
   url = "faq"
   weight = 8
   parent = "Support"
-    
-  [menu.footer_right]
+
+  # footer menu left
+  [[menu.footer_left]]
+  name = "About"
+  url = "about"
+
+  [[menu.footer_left]]
+  name = "Blog"
+  url = "blog"
+
+  [[menu.footer_left]]
+  name = "Contact"
+  url = "contact"
+
+
+  # footer menu middle
+  [[menu.footer_middle]]
+  name = "Pricing"
+  url = "pricing"
+
+  [[menu.footer_middle]]
+  name = "Quick Start"
+  url = "#"
+
+  [[menu.footer_middle]]
+  name = "Support"
+  url = "#"
+
+  # footer menu right
+  [[menu.footer_right]]
   name = "Privacy Policy"
   url = "privacy-policy"
 
-  [menu.footer_right]
+  [[menu.footer_right]]
   name = "Terms & Conditions"
   url = "terms-conditions"
 
