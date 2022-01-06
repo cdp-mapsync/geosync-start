@@ -47,7 +47,7 @@ plans:
   - GeoJSON and SQL Sources
   button:
     enable: true
-    label: Get started for free
+    label: Buy
     link: "#"
 call_to_action:
   enable: true
