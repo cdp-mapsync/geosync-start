@@ -26,7 +26,40 @@ icon_font = "Font Awesome 5 Free"
 
 
 ############################# Menus ##############################
-menu = ['main', 'footer_left', 'footer_middle', 'footer_right']
+# footer menu right
+[[menu.footer_right]]
+name = "Privacy Policy"
+url = "privacy-policy"
+
+[[menu.footer_right]]
+name = "Terms & Conditions"
+url = "terms-conditions"
+
+# footer menu middle
+[[menu.footer_middle]]
+name = "Pricing"
+url = "pricing"
+
+[[menu.footer_middle]]
+name = "Quick Start"
+url = "#"
+
+[[menu.footer_middle]]
+name = "Support"
+url = "#"
+
+# footer menu left
+[[menu.footer_left]]
+name = "About"
+url = "about"
+
+[[menu.footer_left]]
+name = "Blog"
+url = "blog"
+
+[[menu.footer_left]]
+name = "Contact"
+url = "contact"
 
 # main menu
 [[menu.main]]
@@ -70,42 +103,6 @@ name = "FAQ"
 url = "faq"
 weight = 8
 parent = "Support"
-
-# footer menu left
-[[menu.footer_left]]
-name = "About"
-url = "about"
-
-[[menu.footer_left]]
-name = "Blog"
-url = "blog"
-
-[[menu.footer_left]]
-name = "Contact"
-url = "contact"
-
-
-# footer menu middle
-[[menu.footer_middle]]
-name = "Pricing"
-url = "pricing"
-
-[[menu.footer_middle]]
-name = "Quick Start"
-url = "#"
-
-[[menu.footer_middle]]
-name = "Support"
-url = "#"
-
-# footer menu right
-[[menu.footer_right]]
-name = "Privacy Policy"
-url = "privacy-policy"
-
-[[menu.footer_right]]
-name = "Terms & Conditions"
-url = "terms-conditions"
 
 
 ############################# Plugins ##############################
