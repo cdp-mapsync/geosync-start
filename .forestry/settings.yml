@@ -42,20 +42,6 @@ sections:
   templates:
   - new-page
 
-- type: heading
-  label: Configuration
-- type: document
-  path: config/_default/config.toml
-  label: Configuration
-- type: document
-  path: config/_default/params.toml
-  label: Parameters
-- type: document
-  path: config.toml
-  label: Variables & Plugins
-- type: document
-  path: config/_default/languages.toml
-  label: Languages
 - type: document
   path: config/_default/menus.toml
   label: Menu
