@@ -24,35 +24,86 @@ primary_font = "Lato:wght@400"
 primary_font_type = "sans-serif" # [serif/sans-serif]
 icon_font = "Font Awesome 5 Free"
 
-[[menu.main]]
-URL = ""
+
+############################# Menus ##############################
+# main menu
+[[main]]
 name = "Home"
+url = "/"
 weight = 1
 
-[[menu.main]]
-URL = "about"
+[[main]]
 name = "About"
+url = "about"
 weight = 2
 
-[[menu.main]]
-URL = "blog"
+[[main]]
 name = "Blog"
+url = "blog"
 weight = 3
 
-[[menu.main]]
-URL = "pricing"
+[[main]]
 name = "Pricing"
+url = "pricing"
 weight = 4
 
-[[menu.main]]
-URL = "contact"
+[[main]]
 name = "Contact"
+url = "contact"
 weight = 5
 
-[[menu.main]]
-URL = "support"
+[[main]]
 name = "Support"
+url = "faq"
 weight = 6
+
+[[main]]
+name = "Help Center"
+url = "faq"
+weight = 7
+parent = "Support"
+
+[[main]]
+name = "FAQ"
+url = "faq"
+weight = 8
+parent = "Support"
+
+# footer menu left
+[[footer_left]]
+name = "About"
+url = "about"
+
+[[footer_left]]
+name = "Blog"
+url = "blog"
+
+[[footer_left]]
+name = "Contact"
+url = "contact"
+
+
+# footer menu middle
+[[footer_middle]]
+name = "Pricing"
+url = "pricing"
+
+[[footer_middle]]
+name = "Quick Start"
+url = "#"
+
+[[footer_middle]]
+name = "Support"
+url = "#"
+
+# footer menu right
+[[footer_right]]
+name = "Privacy Policy"
+url = "privacy-policy"
+
+[[footer_right]]
+name = "Terms & Conditions"
+url = "terms-conditions"
 
 
 ############################# Plugins ##############################
