@@ -24,6 +24,36 @@ primary_font = "Lato:wght@400"
 primary_font_type = "sans-serif" # [serif/sans-serif]
 icon_font = "Font Awesome 5 Free"
 
+[[menu.main]]
+URL = ""
+name = "Home"
+weight = 1
+
+[[menu.main]]
+URL = "about"
+name = "About"
+weight = 2
+
+[[menu.main]]
+URL = "blog"
+name = "Blog"
+weight = 3
+
+[[menu.main]]
+URL = "pricing"
+name = "Pricing"
+weight = 4
+
+[[menu.main]]
+URL = "contact"
+name = "Contact"
+weight = 5
+
+[[menu.main]]
+URL = "support"
+name = "Support"
+weight = 6
+
 
 ############################# Plugins ##############################
 # CSS Plugins
