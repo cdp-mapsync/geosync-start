@@ -31,7 +31,7 @@ plans:
   - GeoJSON Sources
   button:
     enable: true
-    label: Get started for free
+    label: Buy
     link: "#"
 - business: 
   name: Business Plan
