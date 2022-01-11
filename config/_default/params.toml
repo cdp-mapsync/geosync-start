@@ -20,7 +20,7 @@ preloader = "" # use jpg, png, svg or gif format.
 [navigation_button]
 enable = true
 label = "Get Started"
-link = "contact"
+link = "plan?id=basic"
 
 # cookies
 [cookies]

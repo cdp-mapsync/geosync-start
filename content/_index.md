@@ -65,5 +65,5 @@ call_to_action:
   button:
     enable : true
     label : "Get Started"
-    link : "contact"
+    link : "plan?id=basic"
 ---

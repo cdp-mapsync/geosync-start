@@ -17,7 +17,7 @@ plans:
   button:
     enable: true
     label: Get started for free
-    link: "#"
+    link: "plan?id=basic"
 - name: Professional Plan
   price: "$799"
   price_per: year
@@ -32,14 +32,14 @@ plans:
   button:
     enable: true
     label: Buy now
-    link: "#"
+    link: "plan?id=professional"
 - business: 
   name: Business Plan
   price: "$1999"
   price_per: year
   info: Best For Organizations
   services:
-  - 2 Z-Tools Licenses
+  - 5 Z-Tools Licenses
   - 3 Publisher Licenses
   - 250 GB of Cloud Storage
   - 25 Cloud Projects
@@ -48,7 +48,7 @@ plans:
   button:
     enable: true
     label: Buy now
-    link: "#"
+    link: "plan?id=business"
 call_to_action:
   enable: true
   title: Need a custom plan?

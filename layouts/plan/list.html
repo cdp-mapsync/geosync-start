@@ -1,0 +1,103 @@
+{{ define "main" }}
+
+<section class="pt-10 pb-5">
+  <div id="account" class="container">
+    <main class="container-center text-center">
+      <img src="/icons/icon.png" alt="" width="72" height="72" />
+        <div id="preloader" class="preloader-wrapper">
+          <div class="preloader">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+          </div>
+      </div>
+    </main>
+  </div>
+  <script>
+    this.onload = function () {
+      var render = uhtml.render;
+      var html = uhtml.html;
+      
+      const urlParams = new URLSearchParams(window.location.search)
+      var plan = urlParams.get('id')
+      if (plan != "basic" && plan != "professional" && plan != "business") {
+        plan = "basic"
+      }
+   
+      fetch('{{ site.Params.apiURL }}/api/subscription/' + plan, {
+        credentials: 'include'
+      }).then(async function(response) {
+        const obj = await response.json()
+        if (obj.status == "error") {
+          render(document.getElementById("account"), 
+          html`<main class="container-center text-center">
+            <form action="{{ site.Params.apiURL }}/account/login" method="post">
+              <img class="mb-3" src="/icons/icon.png" alt="" width="72" height="72">
+              <p class="lead">Sign in or create account</p>
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com">
+                <label for="email">Email address</label>
+              </div>
+              <input type="hidden" name="returnUrl" value=${window.location} />
+              <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+            </form>
+          </main>`)
+          return
+        }
+        var subscription = obj.data;
+        if (subscription.portal) {
+          window.location.replace(subscription.portal);
+        }
+        else if (subscription.session) {
+          stripe.redirectToCheckout({
+            sessionId: subscription.session
+          }).then(function (result) {
+            console.log(result)
+          });
+        }
+        else if (subscription.account) {   
+          render(document.getElementById("account"), 
+          html`<main class="mt-5 pt-5 px-3 text-center">
+                <h3>Access Denied</h3>
+                <p class="lead">Subscriptions can only be managed by an admin.</p>
+                <button class="btn btn-primary">Sign out</button>
+              </main>`)
+        }
+        else {
+          render(document.getElementById("account"), 
+          html`<main class="container-center text-center">
+            <form>
+              <img class="mb-3" src="/icons/icon.png" alt="" width="72" height="72">
+              <p class="lead">Sign in or create account</p>
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                <label for="email">Email address</label>
+              </div>
+
+              <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+            </form>
+          </main>`)
+        }
+      }).catch(function (e) {
+        console.log(e)
+        render(document.getElementById("account"), 
+          html`<main class="container-center text-center">
+            <form action="{{ site.Params.apiURL }}/account/login" method="post">
+              <img class="mb-3" src="/icons/icon.png" alt="" width="72" height="72">
+              <p class="lead">Sign in or create account</p>
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com">
+                <label for="email">Email address</label>
+              </div>
+              <input type="hidden" name="returnUrl" value=${window.location} />
+              <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+            </form>
+          </main>`)
+      })
+    }
+  </script>
+</section>
+
+{{ end }}

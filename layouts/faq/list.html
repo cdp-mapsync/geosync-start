@@ -1,17 +1,25 @@
 {{ define "main" }}
 {{ partial "page-header.html" . }}
 
-{{ "<!-- faq -->" | safeHTML }}
-<section class="section">
+<section class="section pb-5">
   <div class="container">
-    <div class="row">
-      {{ .Content }}
+      {{ range $index, $element := .Params.questions }}
+        {{ with $element }}
+        {{if modBool $index 2}}
+<div class="row justify-content-center">
+{{ end }}
+            <div class="col-lg-6">
+            <h3 class="mb-4 check-mark">{{ .title }}</h3>
+              <p>{{ .answer | markdownify }}</p>
+            </div>
+            {{if not (modBool $index 2)}}
+</div>
+{{ end }}
+        {{ end }}
+      {{ end }}
     </div>
   </div>
 </section>
-{{ "<!-- /faq -->" | safeHTML }}
-
-
 <!-- call to action -->
 
 <!-- /call to action -->

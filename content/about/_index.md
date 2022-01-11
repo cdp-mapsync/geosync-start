@@ -20,10 +20,3 @@ screenshot:
   image: images/screenshot.png
 
 ---
-{{< column >}}
-CDP Engineers was formed in 1989 offering professional engineering and land surveying services to both public and private clients. While today we are focused primarily on geospatial solutions, we have a rich, successful history of providing design, study and planning services for  numerous infrastructure projects in the areas of water/wastewater, stormwater, transportation, landscape architecture, and site development.
-{{</ column >}}
-
-{{< column >}}
-CDP Engineers was formed in 1989 offering professional engineering and land surveying services to both public and private clients. While today we are focused primarily on geospatial solutions, we have a rich, successful history of providing design, study and planning services for  numerous infrastructure projects in the areas of water/wastewater, stormwater, transportation, landscape architecture, and site development.
-{{</ column >}}
