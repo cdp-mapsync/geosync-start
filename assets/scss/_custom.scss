@@ -25,6 +25,17 @@ a.dropdown-item:hover {
 .progress-bar {
   background-color: #00AB5F;
 }
+.navbar-light .navbar-nav .nav-link.active {
+  color: #00AB5F;
+}
+.dropdown-item.active, .dropdown-item:active {
+  color: #00AB5F;
+  text-decoration: none;
+  background-color: #fff;
+}
+.check-mark {
+  margin-left: 30px;
+}
 h6 {
   line-height: 1.7;
 }

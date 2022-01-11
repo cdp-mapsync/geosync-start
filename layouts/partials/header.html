@@ -14,6 +14,7 @@
 
       <div class="collapse navbar-collapse text-center" id="navigation">
         <ul class="navbar-nav mx-auto">
+        {{ $currentURL := .URL }}
           {{ range site.Menus.main }}
           {{ if .HasChildren }}
           <li class="nav-item dropdown">
@@ -22,13 +23,21 @@
             </a>
             <ul class="dropdown-menu" aria-labelledby="{{ .URL }}n">
               {{ range .Children }}
-                <li><a class="dropdown-item" href="{{ .URL | relLangURL }}" title="{{ .Name }}">{{ .Name }}</a></li>
+              {{ $itemURL := printf "%s%s%s" "/" .URL "/"}}
+              {{ if eq $itemURL "///" }}
+              {{ $itemURL = "/"}}
+              {{ end }}
+                <li><a class="dropdown-item  {{ if eq $currentURL $itemURL }}active{{ end }}" href="{{ .URL | relLangURL }}" title="{{ .Name }}">{{ .Name }}</a></li>
               {{ end }}
             </ul>
           </li>
           {{ else }}
+          {{ $itemURL := printf "%s%s%s" "/" .URL "/"}}
+          {{ if eq $itemURL "///" }}
+          {{ $itemURL = "/"}}
+          {{ end }}
           <li class="nav-item">
-            <a class="nav-link" href="{{ .URL | relLangURL }}" title="{{ .Name }}">{{ .Name }}</a>
+            <a class="nav-link {{ if eq $currentURL $itemURL }}active{{ end }}" href="{{ .URL | relLangURL }}" title="{{ .Name }}">{{ .Name }}</a>
           </li>
           {{ end }}
           {{ end }}
