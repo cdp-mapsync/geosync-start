@@ -45,184 +45,109 @@
           return
         }
         var account = obj.data;
-        console.log(obj)
-        render(document.getElementById("account"), 
-          html`<div class="row">
-          <div class="col-lg-6">
-            <h4 class="mt-5">Subscription</h4>
-            <div class="list-group">
-              ${
-                account.subscription.map((item) =>
-                  html`<a href="javascript:void(0)" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
-                    <div class="d-flex gap-2 w-100 justify-content-between">
-                      <div>
-                        <h6 class="mb-0">${item[0]}</h6>
-                        <p class="mb-0 opacity-90">${item[1]}</p>
+        if (account.session) {
+          var stripe = Stripe("pk_test_UXYkK1yw6Qg9cHStiW6c0t7B00CpgVWocE");
+          stripe.redirectToCheckout({
+            sessionId: account.session
+          }).then(function (result) {
+            console.log(result)
+          });
+        }
+        else {
+          render(document.getElementById("account"), 
+            html`<div class="row">
+            <div class="col-lg-6">
+              <h4 class="mt-5">Subscription</h4>
+              <div class="list-group">
+                ${
+                  account.subscription.map((item) =>
+                    html`<a href="javascript:void(0)" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+                      <div class="d-flex gap-2 w-100 justify-content-between">
+                        <div>
+                          <h6 class="mb-0">${item[0]}</h6>
+                          <p class="mb-0 opacity-90">${item[1]}</p>
+                        </div>
                       </div>
-                    </div>
-                  </a>`
-                )
-              }
+                    </a>`
+                  )
+                }
+              </div>
+              <div class="tile mt-5 mb-1">
+                <div class="tile-content">
+                  <h4 class="mt-1">Profile</h4>
+                </div>
+                <div class="tile-action">
+                  <button class="btn btn-xs btn-primary">Edit</button>
+                </div>
+              </div>
+              <div class="list-group">
+                ${
+                  account.profile.map((item) =>
+                    html`<a href="javascript:void(0)" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+                      <div class="d-flex gap-2 w-100 justify-content-between">
+                        <div>
+                          <h6 class="mb-0">${item[0]}</h6>
+                          <p class="mb-0 opacity-90">${item[1]}</p>
+                        </div>
+                      </div>
+                    </a>`
+                  )
+                }
+              </div>
             </div>
-            <div class="tile mt-5 mb-1">
+            <div class="col-lg-6">
+              <h4 class="mt-5">Metrics</h4>
+              <div class="list-group">
+                ${
+                  account.metrics.map((item) =>
+                    html`<a href="javascript:void(0)" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+                      <div class="gap-2 w-100 justify-content-between">
+                        <div>
+                          <h6 class="mb-0">${item[0]}</h6>
+                          <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="${"width:calc("+item[1]+"/"+item[2]+"*100%"}" aria-valuenow="${item[1]}" aria-valuemin="0" aria-valuemax="${item[2]}"></div>
+                          </div>
+                          ${ item[0] == "Storage" ?
+                            html`<p class="mb-0 opacity-90">${(item[1] / 1024 / 1024 / 1024).toFixed(2)} GB / ${Math.round(item[2] / 1024 / 1024 / 1024)} GB</p>` :
+                            html`<p class="mb-0 opacity-90">${item[1]} / ${item[2]}</p>`
+                          }
+                        </div>
+                      </div>
+                    </a>`
+                  )
+                }
+              </div>
+              <h4 class="mt-5">Licenses</h4>
+              <div class="list-group">
+                ${
+                  account.licenses.map((item) =>
+                    html`<a href="javascript:void(0)" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+                      <div class="gap-2 w-100 justify-content-between">
+                        <div>
+                          <h6 class="mb-0">${item[0]}</h6>
+                          <p class="mb-0 opacity-90">Key: ${item[1]}</p>
+                          <p class="mb-0 opacity-90">Computer: ${item[2]}</p>
+                          <p class="mb-0 opacity-90">Expiration: ${item[3]}</p>
+                          <p class="mb-0 opacity-90">Web Share: ${item[4]}</p>
+                        </div>
+                      </div>
+                    </a>`
+                  )
+                }
+              </div>
+            </div>
+          </div>`
+          );
+          render(document.getElementById("header"),
+            html`<div class="tile" style="margin-left:25px;padding-top:70px;">
               <div class="tile-content">
-                <h4 class="mt-1">Profile</h4>
+                <h2 class="page-title slant slant-left slant-right" style="width:150px;">Account</h2>
               </div>
               <div class="tile-action">
-                <button class="btn btn-xs btn-primary">Edit</button>
+                <button class="btn btn-sm btn-outline-primary" onclick=${signOut}>Sign out</button>
               </div>
-            </div>
-            <div class="list-group">
-              ${
-                account.profile.map((item) =>
-                  html`<a href="javascript:void(0)" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
-                    <div class="d-flex gap-2 w-100 justify-content-between">
-                      <div>
-                        <h6 class="mb-0">${item[0]}</h6>
-                        <p class="mb-0 opacity-90">${item[1]}</p>
-                      </div>
-                    </div>
-                  </a>`
-                )
-              }
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <h4 class="mt-5">Metrics</h4>
-            <div class="list-group">
-              ${
-                account.metrics.map((item) =>
-                  html`<a href="javascript:void(0)" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
-                    <div class="gap-2 w-100 justify-content-between">
-                      <div>
-                        <h6 class="mb-0">${item[0]}</h6>
-                        <div class="progress">
-                          <div class="progress-bar" role="progressbar" style="${"width:calc("+item[1]+"/"+item[2]+"*100%"}" aria-valuenow="${item[1]}" aria-valuemin="0" aria-valuemax="${item[2]}"></div>
-                        </div>
-                        ${ item[0] == "Storage" ?
-                          html`<p class="mb-0 opacity-90">${(item[1] / 1024 / 1024 / 1024).toFixed(2)} GB / ${Math.round(item[2] / 1024 / 1024 / 1024)} GB</p>` :
-                          html`<p class="mb-0 opacity-90">${item[1]} / ${item[2]}</p>`
-                        }
-                      </div>
-                    </div>
-                  </a>`
-                )
-              }
-            </div>
-            <h4 class="mt-5">Licenses</h4>
-            <div class="list-group">
-              ${
-                account.licenses.map((item) =>
-                  html`<a href="javascript:void(0)" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
-                    <div class="gap-2 w-100 justify-content-between">
-                      <div>
-                         <h6 class="mb-0">${item[0]}</h6>
-                        <p class="mb-0 opacity-90">Key: ${item[1]}</p>
-                        <p class="mb-0 opacity-90">Computer: ${item[2]}</p>
-                        <p class="mb-0 opacity-90">Expiration: ${item[3]}</p>
-                        <p class="mb-0 opacity-90">Web Share: ${item[4]}</p>
-                      </div>
-                    </div>
-                  </a>`
-                )
-              }
-            </div>
-          </div>
-        </div>`
-        );
-        render(document.getElementById("account"), 
-          html`<div class="row">
-          <div class="col-lg-6">
-            <h4 class="mt-5">Subscription</h4>
-            <div class="list-group">
-              ${
-                account.subscription.map((item) =>
-                  html`<a href="javascript:void(0)" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
-                    <div class="d-flex gap-2 w-100 justify-content-between">
-                      <div>
-                        <h6 class="mb-0">${item[0]}</h6>
-                        <p class="mb-0 opacity-90">${item[1]}</p>
-                      </div>
-                    </div>
-                  </a>`
-                )
-              }
-            </div>
-            <div class="tile mt-5 mb-1">
-              <div class="tile-content">
-                <h4 class="mt-1">Profile</h4>
-              </div>
-              <div class="tile-action">
-                <button class="btn btn-xs btn-primary">Edit</button>
-              </div>
-            </div>
-            <div class="list-group">
-              ${
-                account.profile.map((item) =>
-                  html`<a href="javascript:void(0)" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
-                    <div class="d-flex gap-2 w-100 justify-content-between">
-                      <div>
-                        <h6 class="mb-0">${item[0]}</h6>
-                        <p class="mb-0 opacity-90">${item[1]}</p>
-                      </div>
-                    </div>
-                  </a>`
-                )
-              }
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <h4 class="mt-5">Metrics</h4>
-            <div class="list-group">
-              ${
-                account.metrics.map((item) =>
-                  html`<a href="javascript:void(0)" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
-                    <div class="gap-2 w-100 justify-content-between">
-                      <div>
-                        <h6 class="mb-0">${item[0]}</h6>
-                        <div class="progress">
-                          <div class="progress-bar" role="progressbar" style="${"width:calc("+item[1]+"/"+item[2]+"*100%"}" aria-valuenow="${item[1]}" aria-valuemin="0" aria-valuemax="${item[2]}"></div>
-                        </div>
-                        ${ item[0] == "Storage" ?
-                          html`<p class="mb-0 opacity-90">${(item[1] / 1024 / 1024 / 1024).toFixed(2)} GB / ${Math.round(item[2] / 1024 / 1024 / 1024)} GB</p>` :
-                          html`<p class="mb-0 opacity-90">${item[1]} / ${item[2]}</p>`
-                        }
-                      </div>
-                    </div>
-                  </a>`
-                )
-              }
-            </div>
-            <h4 class="mt-5">Licenses</h4>
-            <div class="list-group">
-              ${
-                account.licenses.map((item) =>
-                  html`<a href="javascript:void(0)" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
-                    <div class="gap-2 w-100 justify-content-between">
-                      <div>
-                         <h6 class="mb-0">${item[0]}</h6>
-                        <p class="mb-0 opacity-90">Key: ${item[1]}</p>
-                        <p class="mb-0 opacity-90">Computer: ${item[2]}</p>
-                        <p class="mb-0 opacity-90">Expiration: ${item[3]}</p>
-                        <p class="mb-0 opacity-90">Web Share: ${item[4]}</p>
-                      </div>
-                    </div>
-                  </a>`
-                )
-              }
-            </div>
-          </div>
-        </div>`
-        );
-        render(document.getElementById("header"),
-          html`<div class="tile" style="margin-left:25px;padding-top:70px;">
-            <div class="tile-content">
-              <h2 class="page-title slant slant-left slant-right" style="width:150px;">Account</h2>
-            </div>
-            <div class="tile-action">
-              <button class="btn btn-sm btn-outline-primary" onclick=${signOut}>Sign out</button>
-            </div>
-          </div>`)
+            </div>`)
+        }
       }).catch(function (e) {
         console.log(e)
         render(document.getElementById("account"), 
