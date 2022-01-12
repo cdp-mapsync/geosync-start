@@ -9,3 +9,5 @@ weight = 5
 This is a product description.
 
 {{< vimeo 444033385 >}}
+
+![](/images/gscore9.png)
