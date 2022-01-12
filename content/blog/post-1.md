@@ -153,7 +153,7 @@ raw Markdown line up prettily. You can also use inline Markdown.
 
 ##### Image
 
-![image](../../images/blog/post-1.jpg)
+![image](../../images/post-1.jpg)
 
 <hr>
 
@@ -161,6 +161,7 @@ raw Markdown line up prettily. You can also use inline Markdown.
 
 {{< youtube C0DPdy98e4c >}}
 
+<hr>
 
 ##### Vimeo video
 
