@@ -1,6 +1,5 @@
 +++
 description = ""
-draft = true
 subtitle = ""
 title = "Z-Tools"
 [menu.main]
@@ -12,5 +11,4 @@ weight = 3
 * **Point Cloud Tools**
 * **Find and Download USGS LIDAR**
 * **Clip and Create DXF Contours**
-
-{{< vimeo 444033385 >}}
+* {{< vimeo 427790514 >}}
