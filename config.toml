@@ -35,10 +35,15 @@ name = "Account"
 url = "account"
 weight = 3
 [[menu.main]]
+name = "Blog"
+parent = "Support"
+url = "blog"
+weight = 3
+[[menu.main]]
 name = "FAQ"
 parent = "Support"
 url = "faq"
-weight = 3
+weight = 4
 [[menu.main]]
 name = "Help Center"
 parent = "Support"
@@ -52,18 +57,14 @@ weight = 1
 [[menu.main]]
 name = "Support"
 url = "faq"
-weight = 7
+weight = 6
 [[menu.main]]
 name = "Contact"
 url = "contact"
-weight = 6
+weight = 5
 [[menu.main]]
 name = "Pricing"
 url = "pricing"
-weight = 5
-[[menu.main]]
-name = "Blog"
-url = "blog"
 weight = 4
 [[menu.main]]
 name = "About"
