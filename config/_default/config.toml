@@ -1,6 +1,5 @@
 ######################## default configuration ####################
 baseURL = "https://start.geosync.cloud"
-apiURL = "http://localhost:1323"
 title = "GeoSync"
 # post pagination
 paginate = "3"

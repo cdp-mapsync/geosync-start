@@ -4,25 +4,27 @@
 <section class="section bg-white">
   <div class="container">
     <div class="row">
-      <div class="col-lg-7 mb-4 mb-lg-0">
-        <form action="{{ site.Params.contact_form_action | safeURL }}" method="POST">
+      <div id="content" class="col-lg-7 mb-4 mb-lg-0">
+        <form id="form" action="{{ site.Params.contact_form_action | safeURL }}" method="POST">
           <div class="form-floating mb-3">
-            <input type="text" class="form-control" id="name" placeholder="Name">
+            <input type="text" class="form-control" id="name" placeholder="Name" required>
             <label for="name">Name</label>
           </div>
           <div class="form-floating mb-3">
-            <input type="email" class="form-control" id="email" placeholder="name@example.com">
+            <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
             <label for="email">Email address</label>
           </div>
           <div class="form-floating mb-3">
-            <input type="text" class="form-control" id="subject" placeholder="Subject">
+            <input type="text" class="form-control" id="subject" placeholder="Subject" required>
             <label for="subject">Subject</label>
           </div>
           <div class="form-floating mb-3">
-            <textarea name="message" id="message" class="form-control" placeholder="Message"></textarea>
+            <textarea name="message" id="message" class="form-control" placeholder="Message" required></textarea>
             <label for="Message">Message</label>
           </div>
-          <button type="submit" value="send" class="btn btn-primary">{{ i18n `sendnow` }}</button>
+          <div id="submit">
+            <button type="submit" value="send" class="btn btn-primary">Send Now</button>
+          </div>
         </form>
       </div>
       
@@ -31,6 +33,67 @@
       </div>
     </div>
   </div>
+  <script>
+    const form = document.getElementById('form');
+    form.onsubmit = send;
+
+    function send(e) {
+      e.preventDefault();
+      var render = uhtml.render;
+      var html = uhtml.html;
+
+      var name = form.elements['name'].value;
+      var email = form.elements['email'].value;
+      var subject = form.elements['subject'].value;
+      var message = form.elements['message'].value;
+  
+      if (name == "" || email == "" || subject == "" || message == "") {
+        return
+      }
+
+      render(document.getElementById("submit"), 
+        html`<main class="container-center text-center">
+          <div id="preloader" class="preloader-wrapper">
+            <div class="preloader">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+      </main>`)
+
+
+      fetch('{{ site.Params.apiURL }}/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          name,
+          email,
+          subject,
+          message
+        })
+      }).then(async function(response) {
+        const obj = await response.json()
+        if (obj.status == "success") {
+          render(document.getElementById("content"), 
+            html`<h2>Form sent.</h2>
+            <p class="lead">Thanks for contacting us.</p>`)
+        }
+        else {
+          render(document.getElementById("submit"), 
+            html`<button type="submit" value="send" class="btn btn-primary">Send Now</button>`)
+        }
+      }).catch(function (e) {
+        console.log(e)
+        render(document.getElementById("submit"), 
+            html`<button type="submit" value="send" class="btn btn-primary">Send Now</button>`)
+      });
+    }
+  </script>
 </section>
 
 {{ end }}
