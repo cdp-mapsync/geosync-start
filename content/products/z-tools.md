@@ -11,4 +11,5 @@ weight = 3
 * **Point Cloud Tools**
 * **Find and Download USGS LIDAR**
 * **Clip and Create DXF Contours**
-* {{< vimeo 427790514 >}}
+
+  {{< vimeo 427790514 >}}
