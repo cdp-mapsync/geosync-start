@@ -8,11 +8,10 @@ plans:
   price_per: year
   info: Best For Individuals
   services:
-  - 1 Z-Tools License
-  - 1 Publisher License
+  - 1 Z-Tools User
+  - 1 Publisher User
   - 10 GB of Cloud Storage
-  - 1 Cloud Project
-  - 5 Cloud Maps
+  - 10 Container Objects
   - GeoJSON Sources
   button:
     enable: true
@@ -23,11 +22,11 @@ plans:
   price_per: year
   info: Best For Professionals
   services:
-  - 2 Z-Tools Licenses
-  - 2 Publisher Licenses
+  - 2 Z-Tools Users
+  - 1 Publisher User
   - 50 GB of Cloud Storage
   - 5 Cloud Projects
-  - 25 Cloud Maps
+  - 30 Container Objects
   - GeoJSON Sources
   button:
     enable: true
@@ -39,11 +38,10 @@ plans:
   price_per: year
   info: Best For Organizations
   services:
-  - 5 Z-Tools Licenses
-  - 3 Publisher Licenses
+  - 5 Z-Tools Users
+  - 1 Publisher User
   - 250 GB of Cloud Storage
-  - 25 Cloud Projects
-  - 100 Cloud Maps
+  - 100 Container Objects
   - GeoJSON and SQL Sources
   button:
     enable: true
