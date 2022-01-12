@@ -25,7 +25,6 @@ plans:
   - 2 Z-Tools Users
   - 1 Publisher User
   - 50 GB of Cloud Storage
-  - 5 Cloud Projects
   - 30 Container Objects
   - GeoJSON Sources
   button:
