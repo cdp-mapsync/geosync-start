@@ -3,7 +3,7 @@ description = ""
 subtitle = ""
 title = "Z-Tools"
 [menu.main]
-weight = 3
+weight = 2
 
 +++
 # Makes working with LIDAR easy!
