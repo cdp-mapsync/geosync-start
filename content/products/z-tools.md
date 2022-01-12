@@ -3,7 +3,7 @@ description = ""
 subtitle = ""
 title = "Z-Tools"
 [menu.main]
-weight = 5
+weight = 3
 
 +++
 This is a product description.
