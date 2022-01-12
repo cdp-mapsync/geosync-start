@@ -13,3 +13,4 @@ fields:
   label: meta description
 pages:
 - content/products/z-tools.md
+- content/solutions/asset-management.md
