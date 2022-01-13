@@ -67,6 +67,6 @@ call_to_action:
 menu:
   main:
     name: Solutions
-    weight: 3
+    weight: 4
 
 ---
