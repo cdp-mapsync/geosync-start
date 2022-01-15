@@ -3,14 +3,11 @@ label: Products
 hide_body: true
 fields:
 - type: text
-  name: description
-  label: description
-- type: text
-  name: subtitle
-  label: subtitle
-- type: text
   name: title
   label: title
+- type: text
+  name: description
+  label: description
 - type: text
   name: header
   label: header
