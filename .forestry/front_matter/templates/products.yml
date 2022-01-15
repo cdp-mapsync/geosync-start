@@ -1,0 +1,41 @@
+---
+label: Products
+hide_body: true
+fields:
+- type: text
+  name: description
+  label: description
+- type: text
+  name: subtitle
+  label: subtitle
+- type: text
+  name: title
+  label: title
+- type: text
+  name: header
+  label: header
+- type: textarea
+  name: content
+  label: content
+- type: file
+  name: image
+  label: image
+- type: field_group
+  name: button
+  label: button
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: text
+    name: label
+    label: label
+  - type: text
+    name: link
+    label: link
+- type: text
+  name: caption
+  label: caption
+- type: text
+  name: video
+  label: video
