@@ -3,7 +3,7 @@ description = ""
 subtitle = ""
 title = "Asset Management"
 [menu.main]
-name = "Products"
+name = "Solutions"
 weight = 2
 
 +++
