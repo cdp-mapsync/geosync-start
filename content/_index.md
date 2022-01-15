@@ -64,9 +64,5 @@ call_to_action:
     enable: true
     label: Get Started
     link: plan?id=basic
-menu:
-  main:
-    name: Solutions
-    weight: 5
 
 ---
