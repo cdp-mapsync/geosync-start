@@ -2,15 +2,12 @@
 label: New Page
 hide_body: false
 fields:
-- type: text
-  name: title
-  label: title
-- type: text
-  name: subtitle
-  label: subtitle
-- type: text
-  name: description
-  label: meta description
-pages:
-- content/products/z-tools.md
-- content/solutions/asset-management.md
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: subtitle
+    label: subtitle
+  - type: text
+    name: description
+    label: meta description
