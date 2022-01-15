@@ -15,7 +15,7 @@ caption: Check out our video preview
 video: https://player.vimeo.com/video/427790514?h=8183923d02&title=0&byline=0&portrait=0&color=00ab5f
 menu:
   main:
-    name: Products
-    weight: 2
+    weight: 1
+    parent: Products
 
 ---
