@@ -18,5 +18,9 @@ columns:
 screenshot:
   enable: true
   image: images/screenshot.png
+menu:
+  main:
+    name: Company
+    weight: 4
 
 ---
