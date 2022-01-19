@@ -6,7 +6,7 @@ header: Makes working with LIDAR easy
 content: Easy to use 3D toolbox for finding, filtering, clipping and visualizing point
   cloud data. Designed by surveying professionals to streamline point cloud workflows
   and working with point cloud data sets.
-image: images/z-tools.png
+image: images/geosync_z_tools_overview.jpg
 button:
   enable: true
   label: Try for free
