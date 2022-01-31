@@ -1,0 +1,28 @@
+{{ define "main" }}
+
+<section class="section pb-0 pt-0">
+  <div id="header" class="container text-center"></div>
+</section>
+<section class="pb-5">
+  <div id="account" class="container">
+    <main class="container-center text-center">
+      <img src="/icons/icon.png" alt="" width="72" height="72" />
+      <div id="preloader" class="preloader-wrapper">
+        <div class="preloader">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </main>
+  </div>
+  <script>
+    setTimeout(function() {
+      window.location.replace("https://start.geosync.cloud/account");
+    }, 3000);
+  </script>
+</section>
+
+{{ end }}
