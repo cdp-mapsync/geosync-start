@@ -23,13 +23,9 @@ name = "Pricing"
 url = "pricing"
 weight = 1
 [[menu.footer_right]]
-name = "FAQ"
-url = "faq"
-weight = 2
-[[menu.footer_right]]
 name = "Help Center"
 url = "terms-conditions"
-weight = 3
+weight = 2
 [[menu.footer_right]]
 name = "Account"
 url = "account"
@@ -45,20 +41,15 @@ parent = "Company"
 url = "blog"
 weight = 2
 [[menu.main]]
-name = "About"
-parent = "Company"
-url = "about"
-weight = 1
-[[menu.main]]
-name = "FAQ"
-parent = "Support"
-url = "faq"
-weight = 3
-[[menu.main]]
 name = "Help Center"
 parent = "Support"
 url = "https://help.geosync.cloud"
 weight = 2
+[[menu.main]]
+name = "About"
+parent = "Company"
+url = "about"
+weight = 1
 [[menu.main]]
 name = "Account"
 parent = "Support"
