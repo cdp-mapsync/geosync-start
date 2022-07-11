@@ -1,6 +1,6 @@
 ---
-title: Example post
-date: '2020-04-18T10:07:21.000+06:00'
+title: test
+date: 2020-04-18T10:07:21.000+06:00
 image: images/post-1.jpg
 type: featured
 description: This is meta description
