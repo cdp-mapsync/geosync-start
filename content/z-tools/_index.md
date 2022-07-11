@@ -9,7 +9,7 @@ content: Easy to use 3D toolbox for finding, filtering, clipping and visualizing
 image: images/geosync_z_tools_overview.jpg
 button:
   enable: false
-  label: Try for free
+  label: Contact Us
   link: "/plan?id=basic"
 caption: Check out our video preview
 video: https://player.vimeo.com/video/427790514?h=8183923d02&title=0&byline=0&portrait=0&color=00ab5f
