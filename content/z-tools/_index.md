@@ -1,7 +1,7 @@
 ---
 description: ''
 subtitle: ''
-title: Z-Tools
+title: GeoSync Point Cloud Tools
 header: Makes working with LIDAR easy
 content: Easy to use 3D toolbox for finding, filtering, clipping and visualizing point
   cloud data. Designed by surveying professionals to streamline point cloud workflows
