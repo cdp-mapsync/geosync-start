@@ -3,49 +3,20 @@ title: Pricing
 subtitle: ''
 description: This is meta description
 plans:
-- name: Basic Plan
-  price: "$399"
+- name: Base Plan
+  price: "$480"
   price_per: year
-  info: Best For Individuals
+  info: Surveyors, Engineers, Mapping Professionals, and Utilities
   services:
   - 1 Z-Tools User
   - 1 Publisher User
   - 10 GB of Cloud Storage
-  - 10 Container Objects
-  - GeoJSON Sources
+  - 5 Projects (Unlimited Maps, Scenes, & Tables)
+  - GeoJSON & MSSQL Sources
   button:
-    enable: true
-    label: Get started for free
-    link: "plan?id=basic"
-- name: Professional Plan
-  price: "$799"
-  price_per: year
-  info: Best For Professionals
-  services:
-  - 2 Z-Tools Users
-  - 1 Publisher User
-  - 50 GB of Cloud Storage
-  - 30 Container Objects
-  - GeoJSON Sources
-  button:
-    enable: true
+    enable: false
     label: Buy now
-    link: "plan?id=professional"
-- business: 
-  name: Business Plan
-  price: "$1999"
-  price_per: year
-  info: Best For Organizations
-  services:
-  - 5 Z-Tools Users
-  - 1 Publisher User
-  - 250 GB of Cloud Storage
-  - 100 Container Objects
-  - GeoJSON and SQL Sources
-  button:
-    enable: true
-    label: Buy now
-    link: "plan?id=business"
+    link: plan?id=professional
 call_to_action:
   enable: true
   title: Need a custom plan?
