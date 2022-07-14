@@ -3,10 +3,10 @@ title: Pricing
 subtitle: ''
 description: This is meta description
 plans:
-- name: Base Plan
+- name: Get Started
   price: "$480"
   price_per: year
-  info: Surveyors, Engineers, Mapping Professionals, and Utilities
+  info: For any organization needing a map based solution
   services:
   - 1 Z-Tools User
   - 1 Publisher User
