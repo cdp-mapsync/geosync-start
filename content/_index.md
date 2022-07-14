@@ -55,7 +55,7 @@ features:
     data in an immersive setting. This scale allows you to measure something as small
     as an object in a room.
 call_to_action:
-  enable: true
+  enable: false
   title: Ready to get started?
   image: images/cta.png
   content: We make it easy to start with a free trial. It only takes a few minutes
