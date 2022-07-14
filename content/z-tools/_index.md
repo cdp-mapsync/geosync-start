@@ -12,10 +12,6 @@ button:
   label: Contact Us
   link: "/plan?id=basic"
 caption: Check out our video preview
-video: https://player.vimeo.com/video/427790514?h=8183923d02&title=0&byline=0&portrait=0&color=00ab5f
-menu:
-  main:
-    weight: 1
-    parent: Solutions
+video: https://vimeo.com/730097758
 
 ---
