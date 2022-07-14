@@ -12,6 +12,7 @@ button:
   label: Contact Us
   link: "/plan?id=basic"
 caption: Check out our video preview
-video: https://player.vimeo.com/video/730097758
+video: https://player.vimeo.com/video/730097758?h=3971edc68f" width="640" height="564"
+  frameborder="0" allow="autoplay; fullscreen" allowfullscreen
 
 ---
