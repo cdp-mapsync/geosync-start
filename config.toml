@@ -1,72 +1,72 @@
 [[menu.footer_left]]
-name = "Contact"
-url = "contact"
-weight = 3
+name = "About"
+url = "about"
+weight = 1
 [[menu.footer_left]]
 name = "Blog"
 url = "blog"
 weight = 2
 [[menu.footer_left]]
-name = "About"
-url = "about"
-weight = 1
-[[menu.footer_middle]]
-name = "Terms & Conditions"
-url = "terms-conditions"
+name = "Contact"
+url = "contact"
 weight = 3
+[[menu.footer_middle]]
+name = "Pricing"
+url = "pricing"
+weight = 1
 [[menu.footer_middle]]
 name = "Privacy Policy"
 url = "privacy-policy"
 weight = 2
 [[menu.footer_middle]]
-name = "Pricing"
-url = "pricing"
+name = "Terms & Conditions"
+url = "terms-conditions"
+weight = 3
+[[menu.footer_right]]
+name = "Account"
+url = "account"
 weight = 1
 [[menu.footer_right]]
 name = "Help Center"
 url = "terms-conditions"
 weight = 2
-[[menu.footer_right]]
-name = "Account"
-url = "account"
-weight = 1
 [[menu.main]]
 name = "Contact"
 parent = "Company"
 url = "contact"
 weight = 3
-[[menu.main]]
-name = "Blog"
-parent = "Company"
-url = "blog"
-weight = 2
 [[menu.main]]
 name = "Help Center"
 parent = "Support"
 url = "https://help.geosync.cloud"
 weight = 2
 [[menu.main]]
-name = "About"
+name = "Blog"
 parent = "Company"
-url = "about"
-weight = 1
+url = "blog"
+weight = 2
 [[menu.main]]
 name = "Account"
 parent = "Support"
 url = "account"
 weight = 1
 [[menu.main]]
-name = "Support"
-url = "faq"
-weight = 5
+name = "About"
+parent = "Company"
+url = "about"
+weight = 1
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
 [[menu.main]]
 name = "Pricing"
 url = "pricing"
 weight = 3
 [[menu.main]]
-name = "Home"
-url = "/"
-weight = 1
+name = "Support"
+url = "faq"
+weight = 5
 [params]
 apiURL = "https://geosync.cloud"
 [[params.plugins.css]]

@@ -13,5 +13,9 @@ button:
   link: "/plan?id=basic"
 caption: Check out our video preview
 video: https://player.vimeo.com/video/730097758?h=8183923d02&title=0&byline=0&portrait=0&color=00ab5f
+menu:
+  main:
+    name: Solutions
+    weight: 2
 
 ---
