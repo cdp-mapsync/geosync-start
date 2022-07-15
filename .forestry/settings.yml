@@ -22,7 +22,7 @@ sections:
   match: "**/*"
   exclude: _index.md
   templates:
-  - product
+  - page
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
