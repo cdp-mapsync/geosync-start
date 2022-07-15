@@ -4,7 +4,7 @@ content = ""
 description = ""
 header = ""
 image = ""
-title = "_index"
+title = "KY Elevation Tools"
 video = ""
 [button]
 enable = false
