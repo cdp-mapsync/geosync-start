@@ -4,7 +4,7 @@ content = "Easy to use 3D toolbox for finding, filtering, clipping and visualizi
 description = ""
 header = "Makes Working with Elevation Data Easy!"
 image = "/images/post-1.jpg"
-title = "KY Elev Tools"
+title = "KY Elev. Tools"
 video = ""
 [button]
 enable = true
