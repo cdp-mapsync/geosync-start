@@ -2,7 +2,6 @@
 caption = ""
 content = ""
 description = ""
-draft = true
 header = ""
 image = ""
 title = "_index"
