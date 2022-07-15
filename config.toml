@@ -36,7 +36,7 @@ parent = "Solutions"
 url = "/z-tools-ky"
 weight = 2
 [[menu.main]]
-name = "Z-Tools"
+name = "Point Cloud (Z-Tools)"
 parent = "Solutions"
 url = "/z-tools"
 weight = 1
