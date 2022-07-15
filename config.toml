@@ -31,6 +31,11 @@ name = "Help Center"
 url = "terms-conditions"
 weight = 2
 [[menu.main]]
+name = "Z-Tools"
+parent = "Solutions"
+url = "/z-tools"
+weight = 1
+[[menu.main]]
 name = "Contact"
 parent = "Company"
 url = "contact"
