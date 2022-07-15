@@ -36,3 +36,5 @@ fields:
 - type: text
   name: video
   label: video
+pages:
+- content/z-tools-ky/_index-md.md
