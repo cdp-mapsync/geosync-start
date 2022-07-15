@@ -36,5 +36,3 @@ fields:
 - type: text
   name: video
   label: video
-pages:
-- content/solutions/test.md
