@@ -2,10 +2,9 @@
 caption = ""
 content = ""
 description = ""
-draft = true
 header = ""
 image = ""
-title = "_index-md"
+title = "_index"
 video = ""
 [button]
 enable = false
