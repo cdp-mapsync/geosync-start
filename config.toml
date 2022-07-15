@@ -31,7 +31,7 @@ name = "Help Center"
 url = "terms-conditions"
 weight = 2
 [[menu.main]]
-name = "KY Elevation"
+name = "KY Elevation (Z-Tools)"
 parent = "Solutions"
 url = "/z-tools-ky"
 weight = 2
