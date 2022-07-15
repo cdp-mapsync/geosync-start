@@ -33,6 +33,7 @@ weight = 2
 [[menu.main]]
 name = "KY Elevation"
 parent = "Solutions"
+url = "/z-tools-ky"
 weight = 2
 [[menu.main]]
 name = "Z-Tools"
