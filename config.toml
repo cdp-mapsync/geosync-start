@@ -31,6 +31,9 @@ name = "Help Center"
 url = "terms-conditions"
 weight = 2
 [[menu.main]]
+name = "Solutions"
+weight = 2
+[[menu.main]]
 name = "Contact"
 parent = "Company"
 url = "contact"
@@ -46,14 +49,14 @@ parent = "Company"
 url = "blog"
 weight = 2
 [[menu.main]]
-name = "Account"
-parent = "Support"
-url = "account"
-weight = 1
-[[menu.main]]
 name = "About"
 parent = "Company"
 url = "about"
+weight = 1
+[[menu.main]]
+name = "Account"
+parent = "Support"
+url = "account"
 weight = 1
 [[menu.main]]
 name = "Home"

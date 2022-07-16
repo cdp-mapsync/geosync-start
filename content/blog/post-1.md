@@ -4,6 +4,10 @@ date: 2020-04-18T10:07:21.000+06:00
 image: images/post-1.jpg
 type: featured
 description: This is meta description
+menu:
+  main:
+    weight: 3
+    parent: Solutions
 
 ---
 #### Heading example

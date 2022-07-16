@@ -9,10 +9,10 @@ header: Makes Working with Elevation Data Easy!
 image: "/images/post-1.jpg"
 title: KY Elev. Tools
 video: https://player.vimeo.com/video/730097758?h=8183923d02&title=0&byline=0&portrait=0&color=00ab5f
-button: 
+button:
   enable: false
-  label: ""
-  link: ""
+  label: ''
+  link: ''
 menu:
   main:
     name: KY Elevation (Z-Tools)
