@@ -5,7 +5,7 @@ description = ""
 header = "Easily and quickly share your point clouds via the web"
 image = "/images/geosync_pointcloudwebsharing_web.png"
 title = "Point Cloud Sharing"
-video = ""
+video = "https://player.vimeo.com/video/730637431?h=d0af10540c\" width=\"640\" height=\"564\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen"
 [button]
 enable = true
 label = "PDF Flyer"
