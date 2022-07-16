@@ -10,7 +10,7 @@ image: "/images/geosync_pointcloudtools_web.png"
 button:
   enable: true
   label: PDF Flyer
-  link: https://ztools.blob.core.windows.net/$root/GeoSync_Cloud_PointCloud_Flyer.pptx
+  link: https://ztools.blob.core.windows.net/$root/GeoSync_Cloud_PointCloud_Flyer.pdf
 caption: Check out our video preview
 video: https://player.vimeo.com/video/730097758?h=8183923d02&title=0&byline=0&portrait=0&color=00ab5f
 menu:
