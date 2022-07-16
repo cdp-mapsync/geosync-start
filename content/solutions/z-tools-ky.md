@@ -13,9 +13,9 @@ title: KY Elev Tools
 video: https://player.vimeo.com/video/730619982?h=a8deadf613" width="640" height="564"
   frameborder="0" allow="autoplay; fullscreen" allowfullscreen
 button:
-  enable: false
-  label: ''
-  link: https://www.ztools.geosync.cloud/gallery
+  enable: true
+  label: PDF Flyer
+  link: https://ztools.blob.core.windows.net/$root/GeoSync_Cloud_KYElevation_Flyer.pdf
 menu:
   main:
     name: KY Elevation (Z-Tools)
