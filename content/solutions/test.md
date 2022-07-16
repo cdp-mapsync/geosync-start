@@ -15,4 +15,4 @@ parent = "Solutions"
 weight = 3
 
 +++
-##### [**Check out our gallery of shared point clouds.**](https://www.ztools.geosync.cloud/gallery)
+##### [**Gallery of shared point clouds.**](https://www.ztools.geosync.cloud/gallery)
