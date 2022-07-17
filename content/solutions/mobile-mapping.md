@@ -2,7 +2,7 @@
 caption = ""
 content = ""
 description = ""
-header = "Easily Add Mobile Mapping to you Workflows!"
+header = "Easily Add Mobile Mapping to Your Workflows!"
 image = "/images/geosync_cloud_mobilemapping_webimage.png"
 title = "Mobile Mapping"
 video = ""
