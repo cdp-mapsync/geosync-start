@@ -10,5 +10,9 @@ video = ""
 enable = false
 label = ""
 link = ""
+[menu.main]
+name = "E911 Campus Framework"
+parent = "Solutions"
+weight = 6
 
 +++
