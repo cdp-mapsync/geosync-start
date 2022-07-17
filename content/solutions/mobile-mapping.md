@@ -15,3 +15,11 @@ parent = "Solutions"
 weight = 2
 
 +++
+### Add a Leica FLX100 GNSS Device for $5100
+
+![](/images/leica_zeno_flx100.png)
+
+* Bluetooth Connection
+* Works with Android Devices
+* Accuracies to 2 cm
+* Pole Accessories Available
