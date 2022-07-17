@@ -11,8 +11,9 @@ enable = true
 label = "PDF Flyer"
 link = "https://ztools.blob.core.windows.net/$root/GeoSync_Cloud_PointCloudSharing_Flyer.pdf"
 [menu.main]
+name = "test"
 parent = "Solutions"
-weight = 5
+weight = 3
 
 +++
 ##### [**Gallery of shared point clouds.**](https://www.ztools.geosync.cloud/gallery)

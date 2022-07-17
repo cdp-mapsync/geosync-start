@@ -17,6 +17,6 @@ menu:
   main:
     name: Point Cloud (Z-Tools)
     parent: Solutions
-    weight: 3
+    weight: 1
 
 ---
