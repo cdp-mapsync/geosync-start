@@ -38,3 +38,4 @@ fields:
   label: video
 pages:
 - content/solutions/test.md
+- content/solutions/utility-mapping.md
