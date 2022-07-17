@@ -2,13 +2,13 @@
 caption = ""
 content = ""
 description = ""
-header = ""
+header = "Easily Add Mobile Mapping to you Workflows!"
 image = "/images/geosync_cloud_mobilemapping_webimage.png"
 title = "Mobile Mapping"
 video = ""
 [button]
-enable = false
-label = ""
+enable = true
+label = "PDF Flyer"
 link = ""
 [menu.main]
 parent = "Solutions"
