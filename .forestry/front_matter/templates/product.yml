@@ -37,6 +37,7 @@ fields:
   name: video
   label: video
 pages:
+- content/solutions/e911-campus.md
 - content/solutions/mobile-mapping.md
 - content/solutions/test.md
 - content/solutions/utility-mapping.md
