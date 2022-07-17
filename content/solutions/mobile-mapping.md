@@ -3,7 +3,7 @@ caption = ""
 content = ""
 description = ""
 header = ""
-image = ""
+image = "/images/geosync_cloud_mobilemapping_webimage.png"
 title = "Mobile Mapping"
 video = ""
 [button]
