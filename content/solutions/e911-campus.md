@@ -3,13 +3,13 @@ caption = ""
 content = ""
 description = ""
 header = ""
-image = ""
+image = "/images/geosync_cloud_e911campus_webimage.png"
 title = "E911 Campus"
 video = ""
 [button]
-enable = false
-label = ""
-link = ""
+enable = true
+label = "PDF Flyer"
+link = "https://ztools.blob.core.windows.net/$root/GeoSync_Cloud_E911Campus_Flyer.pdf"
 [menu.main]
 name = "E911 Campus Framework"
 parent = "Solutions"
