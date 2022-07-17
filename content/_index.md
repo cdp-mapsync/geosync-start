@@ -62,7 +62,7 @@ call_to_action:
     to set up and we think the benefits will speak for themselves.
   button:
     enable: true
-    label: Get Started
-    link: plan?id=basic
+    label: Account
+    link: account
 
 ---
