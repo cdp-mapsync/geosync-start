@@ -10,5 +10,8 @@ video = ""
 enable = false
 label = ""
 link = ""
+[menu.main]
+parent = "Solutions"
+weight = 2
 
 +++
