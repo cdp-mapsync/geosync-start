@@ -10,6 +10,10 @@ video = ""
 enable = true
 label = "PDF Flyer"
 link = "https://ztools.blob.core.windows.net/$root/GeoSync_Cloud_E911Campus_Flyer.pdf"
+[menu.main]
+name = "E911 Campus Framework"
+parent = "Solutions"
+weight = 6
 
 +++
 ### Interactive Cloud Campus Site

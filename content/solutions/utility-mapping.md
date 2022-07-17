@@ -10,6 +10,9 @@ video = ""
 enable = true
 label = "PDF Flyer"
 link = "https://ztools.blob.core.windows.net/$root/GeoSync_Cloud_UtilityBundle_Flyer.pdf"
+[menu.main]
+parent = "Solutions"
+weight = 1
 
 +++
 ### Add a Leica FLX100 GNSS Device for $5100
