@@ -84,7 +84,7 @@
                 <div class="col-lg-6">
                   <h4 class="mt-5">Subscription</h4>
                   <div class="list-group">
-                    ${account.subscription.map(
+                    ${account.subscription && account.subscription.map(
                       (item) =>
                         html`<div
                           class="list-group-item list-group-item-action d-flex gap-3 py-3"
@@ -129,7 +129,7 @@
                 <div class="col-lg-6">
                   <h4 class="mt-5">Metrics</h4>
                   <div class="list-group">
-                    ${account.metrics.map(
+                    ${account.metrics && account.metrics.map(
                       (item) =>
                         html`<div
                           class="list-group-item list-group-item-action d-flex gap-3 py-3"
@@ -225,7 +225,7 @@
                   </div>
                   <h4 class="mt-5">Licenses</h4>
                   <div class="list-group">
-                    ${account.licenses.map(
+                    ${account.licenses && account.licenses.map(
                       (item) =>
                         html`<div
                           class="list-group-item list-group-item-action d-flex gap-3 py-3"
