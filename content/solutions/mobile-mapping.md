@@ -5,7 +5,7 @@ description = ""
 header = "Easily Add Mobile Mapping to Your Workflows!"
 image = "/images/geosync_cloud_mobilemapping_webimage.png"
 title = "Mobile Mapping"
-video = "https://player.vimeo.com/video/730804964?h=0a43c76ecc\" width=\"640\" height=\"564\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen"
+video = "https://player.vimeo.com/video/731332958?h=f76995c55b\" width=\"640\" height=\"564\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen"
 [button]
 enable = true
 label = "PDF Flyer"
