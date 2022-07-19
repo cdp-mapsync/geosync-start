@@ -20,3 +20,6 @@ menu:
     weight: 4
 
 ---
+* [Learn more about our Point Cloud to Floor Plan Workflow](https://ztools.blob.core.windows.net/$root/GeoSync_Cloud_PointCloudtoFloorPlan_Flyer.pdf)
+
+![](/images/pointcloudtofloorplan.png)
