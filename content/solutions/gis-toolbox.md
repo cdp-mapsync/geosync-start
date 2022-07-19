@@ -18,5 +18,5 @@ weight = 3
 +++
 ##### More information...
 
-* [Click to preview of the geometry editing tools](https://vimeo.com/manage/folders/10037241)
+* [Click to preview geometry editing tools](https://vimeo.com/manage/folders/10037241)
 * 
