@@ -2,7 +2,6 @@
 caption = ""
 content = ""
 description = ""
-draft = true
 header = ""
 image = "/images/geosync_cloud_gistools_webimage.png"
 title = "GIS Toolbox"
