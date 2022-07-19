@@ -11,5 +11,9 @@ video = ""
 enable = false
 label = ""
 link = ""
+[menu.main]
+name = "GIS Toolbox (Z-Tools)"
+parent = "Solutions"
+weight = 3
 
 +++

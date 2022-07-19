@@ -31,11 +31,6 @@ name = "Help Center"
 url = "terms-conditions"
 weight = 2
 [[menu.main]]
-name = "Contact"
-parent = "Support"
-url = "contact"
-weight = 1
-[[menu.main]]
 name = "Blog"
 parent = "Company"
 url = "blog"
@@ -45,6 +40,11 @@ name = "Help Center"
 parent = "Support"
 url = "https://help.geosync.cloud"
 weight = 2
+[[menu.main]]
+name = "Contact"
+parent = "Support"
+url = "contact"
+weight = 1
 [[menu.main]]
 name = "About"
 parent = "Company"

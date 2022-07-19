@@ -13,7 +13,7 @@ link = "https://ztools.blob.core.windows.net/$root/GeoSync_Cloud_E911Campus_Flye
 [menu.main]
 name = "Campus Framework"
 parent = "Solutions"
-weight = 6
+weight = 7
 
 +++
 ### Interactive Cloud Campus Site
