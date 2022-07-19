@@ -2,7 +2,7 @@
 caption = ""
 content = ""
 description = ""
-header = ""
+header = "Desktop GIS Toolbox for Building and Managing your GIS!"
 image = "/images/geosync_cloud_gistools_webimage.png"
 title = "GIS Toolbox"
 video = ""
