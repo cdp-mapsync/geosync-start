@@ -16,4 +16,7 @@ parent = "Solutions"
 weight = 3
 
 +++
-##### [Preview some of the built-in editing tools](https://vimeo.com/manage/folders/10037241)
+##### More information...
+
+* [Click to preview of the geometry editing tools](https://vimeo.com/manage/folders/10037241)
+* 
