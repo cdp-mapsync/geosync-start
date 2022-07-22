@@ -68,16 +68,6 @@
             return;
           }
           var account = obj.data;
-          if (account.session) {
-            var stripe = Stripe("pk_test_UXYkK1yw6Qg9cHStiW6c0t7B00CpgVWocE");
-            stripe
-              .redirectToCheckout({
-                sessionId: account.session,
-              })
-              .then(function (result) {
-                console.log(result);
-              });
-          } else {
             render(
               document.getElementById("account"),
               html`<div class="row">
@@ -172,9 +162,7 @@
                       <h4 class="mt-1">Downloads</h4>
                     </div>
                     <div class="tile-action">
-                      <button class="btn btn-xs btn-primary">
-                        Setup Instructions
-                      </button>
+                        <a href="https://help.geosync.cloud/z-tools-app/software-download-and-update" class="btn btn-xs btn-primary">Setup Instructions</a>
                     </div>
                   </div>
                   <div class="list-group">
@@ -212,7 +200,7 @@
                             </div>
                             <div class="tile-action">
                               <a
-                                href="https://ztools.blob.core.windows.net/downloads?sv=2019-10-10&st=2022-01-19T18%3A49%3A42Z&se=2025-01-20T18%3A49%3A00Z&sr=c&sp=r&sig=jMHEcXXT1QXWpX59XJM7eLaSGA0s02qTyJZdG7X6eUM%3D"
+                                href="https://ztools.blob.core.windows.net/GsGOZToolsInstaller.zip"
                                 class="btn btn-xs btn-primary"
                               >
                                 Download
@@ -273,7 +261,6 @@
                 </div>
               </div>`
             );
-          }
         })
         .catch(function (e) {
           console.log(e);
