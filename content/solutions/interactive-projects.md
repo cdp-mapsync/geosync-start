@@ -2,7 +2,6 @@
 caption = ""
 content = ""
 description = ""
-draft = true
 header = "Secure cloud containers for sharing GIS data and workflows!"
 image = "/images/geosync_cloud_interactiveprojects_webimage.png"
 title = "Interactive Projects"
