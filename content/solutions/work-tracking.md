@@ -10,5 +10,8 @@ video = ""
 enable = true
 label = "PDF Flyer"
 link = "https://ztools.blob.core.windows.net/$root/GeoSync_Cloud_WorkTracking_Flyer.pdf"
+[menu.main]
+parent = "Solutions"
+weight = 4
 
 +++
