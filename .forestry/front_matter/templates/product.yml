@@ -37,6 +37,7 @@ fields:
   name: video
   label: video
 pages:
+- content/solutions/asset-management.md
 - content/solutions/e911-campus.md
 - content/solutions/gis-toolbox.md
 - content/solutions/interactive-projects.md
