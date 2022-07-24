@@ -12,6 +12,6 @@ label = "PDF Flyer"
 link = "https://ztools.blob.core.windows.net/$root/GeoSync_Cloud_InteractiveProjects_Flyer.pdf"
 [menu.main]
 parent = "Solutions"
-weight = 8
+weight = 9
 
 +++

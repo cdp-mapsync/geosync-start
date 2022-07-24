@@ -13,7 +13,7 @@ link = "https://ztools.blob.core.windows.net/$root/GeoSync_Cloud_GISTools_Flyer.
 [menu.main]
 name = "GIS Toolbox (Z-Tools)"
 parent = "Solutions"
-weight = 4
+weight = 5
 
 +++
 ##### More information...

@@ -17,7 +17,7 @@ menu:
   main:
     name: Point Cloud (Z-Tools)
     parent: Solutions
-    weight: 5
+    weight: 6
 
 ---
 * [Learn more about our Point Cloud to Floor Plan Workflow](https://ztools.blob.core.windows.net/$root/GeoSync_Cloud_PointCloudtoFloorPlan_Flyer.pdf)
