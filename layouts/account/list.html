@@ -23,7 +23,7 @@
       var render = uhtml.render;
       var html = uhtml.html;
 
-      fetch(`{{ site.Params.apiURL }}/api/account`, {
+      fetch("{{ site.Params.apiURL }}/api/account", {
         credentials: "include",
       })
         .then(async function (response) {
