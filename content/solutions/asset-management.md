@@ -15,6 +15,10 @@ parent = "Solutions"
 weight = 3
 
 +++
+### Mapping your System is Easy!
+
+* Check out this 45 sec [**video**](https://vimeo.com/734988953)
+
 ### Add a Leica FLX100 GNSS Device for $5100
 
 ![](/images/leica_zeno_flx100.png)
@@ -23,3 +27,8 @@ weight = 3
 * Works with Android Devices
 * Accuracies to 2 cm
 * Pole Accessories Available
+
+### Add Work Tracking
+
+* Take control of your preventive maintenance and everyday work
+* See the [**Work Tracking Solution**](https://start.geosync.cloud/solutions/work-tracking/)
