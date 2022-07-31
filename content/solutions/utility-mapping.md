@@ -15,6 +15,10 @@ parent = "Solutions"
 weight = 1
 
 +++
+### Mapping your System is Easy!
+
+* [Check out this 45 sec video](https://vimeo.com/735056192)
+
 ### Add a Leica FLX100 GNSS Device for $5100
 
 ![](/images/leica_zeno_flx100.png)
@@ -24,7 +28,7 @@ weight = 1
 * Accuracies to 2 cm
 * Pole Accessories Available
 
-### Add Work Tracking 
+### Add Work Tracking
 
 * Take control of your preventive maintenance and everyday work
-* See the [Work Tracking Solution]()
+* See the [Work Tracking Solution](solutions/work-tracking.md)
