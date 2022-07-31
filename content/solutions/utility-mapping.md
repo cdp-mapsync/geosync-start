@@ -17,7 +17,7 @@ weight = 1
 +++
 ### Mapping your System is Easy!
 
-* [Check out this 45 sec video](https://vimeo.com/735056192)
+* [**Check out this 45 sec video**](https://vimeo.com/735056192)
 
 ### Add a Leica FLX100 GNSS Device for $5100
 
@@ -31,4 +31,4 @@ weight = 1
 ### Add Work Tracking
 
 * Take control of your preventive maintenance and everyday work
-* See the [Work Tracking Solution](solutions/work-tracking.md)
+* See the [**Work Tracking Solution**](https://start.geosync.cloud/solutions/work-tracking/)
