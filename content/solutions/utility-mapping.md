@@ -17,7 +17,7 @@ weight = 1
 +++
 ### Mapping your System is Easy!
 
-* [**Check out this 45 sec video**](https://vimeo.com/735056192)
+* Check out this 45 sec [**video**](https://vimeo.com/734988953)
 
 ### Add a Leica FLX100 GNSS Device for $5100
 
