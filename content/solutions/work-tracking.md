@@ -15,3 +15,20 @@ parent = "Solutions"
 weight = 4
 
 +++
+### Work Tracking Features
+
+* Overlays your system mapping (GIS)
+  * Real world coordinates
+* Easily add tasks and set schedule
+* Automatically links to your asset
+  * Track Asset Maintenance History
+* Let's you know when tasks are due
+* Reports on what's coming up
+* Designed for Small to Medium Utilities
+  * Valve Exercise
+  * Flushing
+  * Inspections
+  * Plant Maintenance
+* Share with your entire team - unlimited users
+
+![](/images/geosync_cloud_worktrackingteam_webimage.png)
