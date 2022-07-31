@@ -23,3 +23,8 @@ weight = 1
 * Works with Android Devices
 * Accuracies to 2 cm
 * Pole Accessories Available
+
+### Add Work Tracking 
+
+* Take control of your preventive maintenance and everyday work
+* See the [Work Tracking Solution]()
