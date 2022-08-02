@@ -23,6 +23,7 @@ weight = 2
 
 ![](/images/leica_zeno_flx100.png)
 
+* [Product Sheet](https://ztools.blob.core.windows.net/$root/Leica%20Zeno%20FLX100%20plus%20DS%20971467%200522%20en.pdf)
 * Bluetooth Connection
 * Works with Android Devices
 * Accuracies to 2 cm
