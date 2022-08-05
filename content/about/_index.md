@@ -21,6 +21,6 @@ screenshot:
 menu:
   main:
     name: Company
-    weight: 4
+    weight: 3
 
 ---
