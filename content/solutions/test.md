@@ -12,7 +12,7 @@ label = "PDF Flyer"
 link = "https://ztools.blob.core.windows.net/$root/GeoSync_Cloud_PointCloudSharing_Flyer.pdf"
 [menu.main]
 parent = "Solutions"
-weight = 8
+weight = 7
 
 +++
 ##### [**Gallery of shared point clouds.**](https://www.ztools.geosync.cloud/gallery)

@@ -20,6 +20,6 @@ menu:
   main:
     name: KY Elevation (Z-Tools)
     parent: Solutions
-    weight: 7
+    weight: 6
 
 ---

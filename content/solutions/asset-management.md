@@ -10,9 +10,6 @@ video = "https://player.vimeo.com/video/735483623?h=50c8fab6e8\" width=\"640\" h
 enable = true
 label = "PDF Flyer"
 link = "https://ztools.blob.core.windows.net/$root/GeoSync_Cloud_AssetManagement_Flyer.pdf"
-[menu.main]
-parent = "Solutions"
-weight = 3
 
 +++
 ### Mapping your System is Easy!
