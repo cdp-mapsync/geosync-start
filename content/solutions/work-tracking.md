@@ -12,7 +12,7 @@ label = "PDF Flyer"
 link = "https://ztools.blob.core.windows.net/$root/GeoSync_Cloud_WorkTracking_Flyer.pdf"
 [menu.main]
 parent = "Solutions"
-weight = 3
+weight = 2
 
 +++
 ### Work Tracking Features

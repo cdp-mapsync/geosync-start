@@ -12,7 +12,7 @@ label = "PDF Flyer"
 link = "https://ztools.blob.core.windows.net/$root/GeoSync_Cloud_MobileBundle_Flyer.pdf"
 [menu.main]
 parent = "Solutions"
-weight = 2
+weight = 3
 
 +++
 ### Mapping your System is Easy!
