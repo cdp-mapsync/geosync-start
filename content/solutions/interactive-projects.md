@@ -15,8 +15,10 @@ parent = "Solutions"
 weight = 8
 
 +++
-#### Check out our[ Interactive Projects Gallery](https://www.ztools.geosync.cloud/kyaped-samples) 
+#### Check out our[ **Interactive Projects Gallery **](https://www.ztools.geosync.cloud/kyaped-samples)
 
-Includes an [ArcGIS Integration Example](https://arcg.is/TqjHf) (id a feature and click "More Info" next to the url attribute to launch a GeoSync Project)
+Includes an [**ArcGIS Integration Example **](https://arcg.is/TqjHf)
+
+* id a feature and click "More Info" next to the url attribute to launch a GeoSync Project
 
 ![](/images/interactive_projects_gallery.png)
