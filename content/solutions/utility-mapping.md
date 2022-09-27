@@ -29,7 +29,7 @@ weight = 1
 * Accuracies to 2 cm
 * Pole Accessories Available
 
-### Add Work Tracking
+### Includes Work Tracking
 
 * Take control of your preventive maintenance and everyday work
 * See the [**Work Tracking Solution**](https://start.geosync.cloud/solutions/work-tracking/)
