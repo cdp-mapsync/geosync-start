@@ -2,9 +2,9 @@
 caption = "Check out our video preview"
 content = "Developed with small to medium sized utilities in mind, GeoSync provides a complete, affordable, and easy to use cloud based utility mapping solution.  The GeoSync App runs on Windows, IOS, and Android devices providing a consistent easy to use application for capturing, viewing, and updating your asset mapping."
 description = ""
-header = "Complete Utility Mapping Solution"
+header = "Utility Asset Management"
 image = "/images/geosync_cloud_utilitybundle_webimage.png"
-title = "Utility Mapping"
+title = "Utility Mapping and AM"
 video = "https://player.vimeo.com/video/735196582?h=7b9d2221d0\" width=\"640\" height=\"564\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen"
 [button]
 enable = true
