@@ -19,7 +19,7 @@ weight = 1
 
 * Check out this 45 sec [**video**](https://vimeo.com/734988953)
 
-### Add a Leica FLX100 GNSS Device for $5100
+### Add a Leica FLX100 Plus GNSS Device for $5500
 
 ![](/images/leica_zeno_flx100.png)
 
