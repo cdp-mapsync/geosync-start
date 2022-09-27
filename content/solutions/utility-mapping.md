@@ -4,7 +4,7 @@ content = "Developed with small to medium sized utilities in mind, GeoSync provi
 description = ""
 header = "Utility Asset Management"
 image = "/images/geosync_cloud_utilitybundle_webimage.png"
-title = "Utility Mapping and AM"
+title = "Utility Mapping & AM"
 video = "https://player.vimeo.com/video/735196582?h=7b9d2221d0\" width=\"640\" height=\"564\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen"
 [button]
 enable = true
