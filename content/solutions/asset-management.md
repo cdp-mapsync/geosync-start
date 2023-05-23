@@ -11,6 +11,11 @@ button:
   enable: true
   label: PDF Flyer
   link: https://ztools.blob.core.windows.net/$root/GeoSync_Cloud_UtilityBundle_Flyer.pdf
+menu:
+  main:
+    name: Asset Management
+    parent: Solutions
+    weight: 7
 ---
 
 ### Mapping your System is Easy!
