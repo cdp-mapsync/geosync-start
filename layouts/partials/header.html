@@ -13,31 +13,26 @@
       </button>
 
       <div class="collapse navbar-collapse text-center" id="navigation">
+        {{ $currentURL := .Page.RelPermalink }}
+        {{ if and (.Page.IsNode) (ne $currentURL "/") }}
+          {{ $currentURL = substr $currentURL 1 -1 }}
+        {{ end }}
         <ul class="navbar-nav mx-auto">
-        {{ $currentURL := .URL }}
           {{ range site.Menus.main }}
           {{ if .HasChildren }}
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="{{ .URL }}" role="button"  data-bs-toggle="dropdown" aria-expanded="false">
               {{ .Name }}
             </a>
-            <ul class="dropdown-menu" aria-labelledby="{{ .URL }}n">
+            <ul class="dropdown-menu" aria-labelledby="{{ .URL }}">
               {{ range .Children }}
-              {{ $itemURL := printf "%s%s%s" "/" .URL "/"}}
-              {{ if eq $itemURL "///" }}
-              {{ $itemURL = "/"}}
-              {{ end }}
-                <li><a class="dropdown-item  {{ if eq $currentURL $itemURL }}active{{ end }}" href="{{ .URL | relLangURL }}" title="{{ .Name }}">{{ .Name }}</a></li>
+                <li><a class="dropdown-item  {{ if eq $currentURL .URL }}active{{ end }}" href="{{ .URL | relLangURL }}" title="{{ .Name }}">{{ .Name }}</a></li>
               {{ end }}
             </ul>
           </li>
           {{ else }}
-          {{ $itemURL := printf "%s%s%s" "/" .URL "/"}}
-          {{ if eq $itemURL "///" }}
-          {{ $itemURL = "/"}}
-          {{ end }}
           <li class="nav-item">
-            <a class="nav-link {{ if eq $currentURL $itemURL }}active{{ end }}" href="{{ .URL | relLangURL }}" title="{{ .Name }}">{{ .Name }}</a>
+            <a class="nav-link {{ if eq $currentURL .URL }}active{{ end }}" href="{{ .URL | relLangURL }}" title="{{ .Name }}">{{ .Name }}</a>
           </li>
           {{ end }}
           {{ end }}
