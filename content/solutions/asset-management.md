@@ -17,7 +17,7 @@ link = "https://ztools.blob.core.windows.net/$root/GeoSync_Cloud_UtilityBundle_F
 
 * Check out this 45 sec **[video](https://vimeo.com/734988953)**
 
-### Add a Leica FLX100 GNSS Device for $5800
+### Add a Leica FLX100 Plus GNSS Device for $5800
 
 ![](/images/leica_zeno_flx100.png)
 
