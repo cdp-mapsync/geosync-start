@@ -6,15 +6,18 @@ header = "Secure cloud containers for sharing GIS data and workflows!"
 image = "/images/geosync_cloud_interactiveprojects_webimage.png"
 title = "Interactive Projects"
 video = ""
+_template = "product"
+
 [button]
 enable = true
 label = "PDF Flyer"
 link = "https://ztools.blob.core.windows.net/$root/GeoSync_Cloud_InteractiveProjects_Flyer.pdf"
+
 [menu.main]
 parent = "Solutions"
 weight = 8
-
 +++
+
 #### Check out our[ Interactive Projects Gallery](https://www.ztools.geosync.cloud/kyaped-samples) 
 
 Includes an [ArcGIS Integration Example](https://arcg.is/TqjHf) 

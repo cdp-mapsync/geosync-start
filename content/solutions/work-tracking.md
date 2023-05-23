@@ -5,16 +5,19 @@ description = ""
 header = "Manage and Track Your Preventive Maintenance Tasks!"
 image = "/images/geosync_cloud_worktracking_webimage.png"
 title = "Work Tracking"
-video = "https://player.vimeo.com/video/735056192?h=5c1ccd39fb\" width=\"640\" height=\"564\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen"
+video = 'https://player.vimeo.com/video/735056192?h=5c1ccd39fb" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen'
+_template = "product"
+
 [button]
 enable = true
 label = "PDF Flyer"
 link = "https://ztools.blob.core.windows.net/$root/GeoSync_Cloud_WorkTracking_Flyer.pdf"
+
 [menu.main]
 parent = "Solutions"
 weight = 2
-
 +++
+
 ### Work Tracking Features
 
 * Overlays your system mapping (GIS)

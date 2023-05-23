@@ -5,17 +5,20 @@ description = ""
 header = "Desktop GIS Toolbox for Building and Managing your GIS!"
 image = "/images/geosync_cloud_gistools_webimage.png"
 title = "GIS Toolbox"
-video = "https://player.vimeo.com/video/731423497?h=84fad1285d\" width=\"640\" height=\"564\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen"
+video = 'https://player.vimeo.com/video/731423497?h=84fad1285d" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen'
+_template = "product"
+
 [button]
 enable = true
 label = "PDF Flyer"
 link = "https://ztools.blob.core.windows.net/$root/GeoSync_Cloud_GISTools_Flyer.pdf"
+
 [menu.main]
 name = "GIS Toolbox (Z-Tools)"
 parent = "Solutions"
 weight = 4
-
 +++
+
 ##### More information...
 
 * [Click to preview geometry editing tools](https://vimeo.com/manage/folders/10037241)

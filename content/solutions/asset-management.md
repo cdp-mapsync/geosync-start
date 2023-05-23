@@ -5,13 +5,15 @@ description = ""
 header = "Complete Asset Management Solution with Work Tracking!"
 image = "/images/geosync_cloud_assetmanagement_webimage.png"
 title = "Asset Management"
-video = "https://player.vimeo.com/video/735483623?h=50c8fab6e8\" width=\"640\" height=\"564\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen"
+video = 'https://player.vimeo.com/video/735483623?h=50c8fab6e8" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen'
+_template = "product"
+
 [button]
 enable = true
 label = "PDF Flyer"
 link = "https://ztools.blob.core.windows.net/$root/GeoSync_Cloud_AssetManagement_Flyer.pdf"
-
 +++
+
 ### Mapping your System is Easy!
 
 * Check out this 45 sec [**video**](https://vimeo.com/734988953)

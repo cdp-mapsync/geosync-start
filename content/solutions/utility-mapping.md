@@ -5,16 +5,19 @@ description = ""
 header = "Utility Asset Management"
 image = "/images/geosync_cloud_utilitybundle_webimage.png"
 title = "Utility Mapping (AM)"
-video = "https://player.vimeo.com/video/735196582?h=7b9d2221d0\" width=\"640\" height=\"564\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen"
+video = 'https://player.vimeo.com/video/735196582?h=7b9d2221d0" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen'
+_template = "product"
+
 [button]
 enable = true
 label = "PDF Flyer"
 link = "https://ztools.blob.core.windows.net/$root/GeoSync_Cloud_UtilityBundle_Flyer.pdf"
+
 [menu.main]
 parent = "Solutions"
 weight = 1
-
 +++
+
 ### Mapping your System is Easy!
 
 * Check out this 45 sec [**video**](https://vimeo.com/734988953)
