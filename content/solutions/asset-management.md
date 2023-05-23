@@ -1,22 +1,27 @@
----
++++
+
++++
+
+***
+
 caption: Check out our video preview
 content: A complete cloud asset management solution designed for small to medium size utilities with flexible database templates for water, sewer, storm, and gas.  This a proven easy to use secure solution with built-in work tracking, reporting tools and premium technical support.  Utilizing standard GIS, database, and reporting formats the solution integrates with existing GIS systems providing seamless importing, exporting, and merging tools.
 description: ""
 header: Complete Asset Management Solution with Work Tracking!
-image: /images/geosync_cloud_assetmanagement_webimage.png
+image: /images/geosync\_cloud\_assetmanagement\_webimage.png
 title: Asset Management
 video: 'https://player.vimeo.com/video/735483623?h=50c8fab6e8" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen'
 
 button:
-  enable: true
-  label: PDF Flyer
-  link: https://ztools.blob.core.windows.net/$root/GeoSync_Cloud_UtilityBundle_Flyer.pdf
+enable: true
+label: PDF Flyer
+link: https://ztools.blob.core.windows.net/$root/GeoSync\_Cloud\_UtilityBundle\_Flyer.pdf
 menu:
-  main:
-    name: Asset Management
-    parent: Solutions
-    weight: 7
----
+main:
+name: Asset Management
+parent: Solutions
+weight: 7
+---------
 
 ### Mapping your System is Easy!
 
