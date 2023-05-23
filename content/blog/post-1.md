@@ -1,12 +1,18 @@
----
++++
+
++++
+
+***
+
 title: test
 date: 2020-04-18T10:07:21.000+06:00
 image: images/post-1.jpg
 type: featured
 description: This is meta description
 
----
-#### Heading example
+***
+
+#### Heading example1
 
 Here is example of headings. You can use this heading by following markdownify rules. For example: use `#` for heading 1 and use `######` for heading 6.
 
@@ -36,11 +42,11 @@ Here is example of headings. You can use this heading by following markdownify r
 
 ##### Emphasis
 
-Emphasis, aka italics, with _asterisks_ or _underscores_.
+Emphasis, aka italics, with *asterisks* or *underscores*.
 
 Strong emphasis, aka bold, with **asterisks** or **underscores**.
 
-Combined emphasis with **asterisks and _underscores_**.
+Combined emphasis with **asterisks and *underscores***.
 
 Strikethrough uses two tildes. ~~Scratch this.~~
 
@@ -159,10 +165,10 @@ raw Markdown line up prettily. You can also use inline Markdown.
 
 ##### Youtube video
 
-{{< youtube C0DPdy98e4c >}}
+{{\< youtube C0DPdy98e4c >}}
 
 <hr>
 
 ##### Vimeo video
 
-{{< vimeo 444033385 >}}
+{{\< vimeo 444033385 >}}
