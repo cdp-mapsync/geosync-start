@@ -1,4 +1,4 @@
-+++
+---
 caption: Check out our video preview
 content: A complete cloud asset management solution designed for small to medium size utilities with flexible database templates for water, sewer, storm, and gas.  This a proven easy to use secure solution with built-in work tracking, reporting tools and premium technical support.  Utilizing standard GIS, database, and reporting formats the solution integrates with existing GIS systems providing seamless importing, exporting, and merging tools.
 description: ""
@@ -16,7 +16,7 @@ main:
 name: Asset Management
 parent: Solutions
 weight: 7
-+++
+---
 
 ### Mapping your System is Easy!
 
