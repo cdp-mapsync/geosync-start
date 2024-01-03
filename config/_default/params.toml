@@ -19,8 +19,8 @@ preloader = "" # use jpg, png, svg or gif format.
 # Navigation buttons
 [navigation_button]
 enable = true
-label = "Account"
-link = "account"
+label = "Contact"
+link = "contact"
 
 # cookies
 [cookies]

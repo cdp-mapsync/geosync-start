@@ -1,33 +1,12 @@
 {{ define "main" }}
 
 <!-- banner -->
-{{ with .Params.banner }}
 <section class="banner">
   <div class="container">
     <div class="row">
       <div class="col-lg-10 mx-auto text-center">
-        <h1 class="mb-3">{{ .title | markdownify }}</h1>
-        <p class="mb-4">{{ .content | markdownify }}</p>
-        {{ if .button.enable }}
-        {{ with .button }}
-        <div><a href="{{ .link | safeURL }}" title="{{ .label }}" class="btn btn-primary">{{ .label }}</a></div>
-        {{ end }}
-        {{ end }}
-
-        {{with .image}}<img src="{{ . | relURL }}" alt="" class="img-fluid mt-5" width="750px">{{end}}
-      </div>
-    </div>
-  </div>
-</section>
-{{ end }}
-<!-- /banner -->
-
-<!-- benefits -->
-<section class="section bg-light">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-12 text-center">
-        <h2 class="section-title">How do we help?</h2>
+        <h1 class="mb-3">{{ .Params.banner.title | markdownify }}</h1>
+        <p class="mb-4">{{ .Params.banner.content | markdownify }}</p>
       </div>
       {{ range .Params.benefits }}
       <div class="col-md-4 col-sm-6 mb-4">
@@ -35,18 +14,32 @@
           <i class="{{.icon}} mb-3"></i>
           <h4 class="mb-2">{{ .name | title }}</h4>
           <p>{{ .content | markdownify }}</p>
+          <a href="{{ .link | relURL }}" title="{{ .label }}" class="btn-link">{{ .label }}</a>
         </div>
       </div>
       {{ end }}
     </div>
   </div>
 </section>
-<!-- /benefits -->
+<!-- /banner -->
+
+<!-- benefits
+<section class="section bg-light">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 text-center">
+        <h2 class="section-title">Featured Solutions</h2>
+      </div>
+
+    </div>
+  </div>
+</section>
+ /benefits -->
 
 <!-- features -->
 {{ range $i,$p := .Params.features }}
 {{if modBool $i 2}}
-<section class="section">
+<section class="section bg-light">
   <div class="container">
     <div class="row align-items-center">
       <div class="col-md-6 order-2 order-md-1">
@@ -86,7 +79,7 @@
   </div>
 </section>
 {{ else }}
-<section class="section bg-light">
+<section class="section">
   <div class="container">
     <div class="row align-items-center">
       <div class="col-md-6 mb-4 mb-md-0">

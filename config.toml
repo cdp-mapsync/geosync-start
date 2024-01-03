@@ -23,8 +23,8 @@ name = "Terms & Conditions"
 url = "terms-conditions"
 weight = 3
 [[menu.footer_right]]
-name = "Account"
-url = "account"
+name = "Contact"
+url = "contact"
 weight = 1
 [[menu.footer_right]]
 name = "Help Center"
