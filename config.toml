@@ -36,11 +36,6 @@ parent = "Support"
 url = "https://help.geosync.cloud"
 weight = 2
 [[menu.main]]
-name = "Blog"
-parent = "Company"
-url = "blog"
-weight = 2
-[[menu.main]]
 name = "Contact"
 parent = "Support"
 url = "contact"

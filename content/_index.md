@@ -42,7 +42,7 @@ features:
 - title: Indoor Visualization
   images:
   - images/floor-plan.png
-  content: A different scale solution allows adding greater detail to specific locations. Floor plans that can viewed in 2D or 3D give flexibility that can be used in many different ways.
+  content: Focusing a solution to a smaller area allows adding greater detail to specific locations. Floor plans that can be viewed in 2D or 3D give flexibility that can be used in many different ways.
 call_to_action:
   enable: false
   title: Ready to get started?
