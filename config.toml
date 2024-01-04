@@ -3,10 +3,6 @@ name = "About"
 url = "about"
 weight = 1
 [[menu.footer_left]]
-name = "Blog"
-url = "blog"
-weight = 2
-[[menu.footer_left]]
 name = "Contact"
 url = "contact"
 weight = 3
