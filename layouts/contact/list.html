@@ -9,14 +9,14 @@
           action="https://formspree.io/f/mdoqwjvo"
           method="POST"
         >
-          <label>
-            Your email:
-            <input type="email" name="email">
-          </label>
-          <label>
-            Your message:
-            <textarea name="message"></textarea>
-          </label>
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="email" placeholder="Email" required="">
+            <label for="name">Name</label>
+          </div>
+          <div class="form-floating mb-3">
+            <textarea name="message" id="message" class="form-control" placeholder="Message" required=""></textarea>
+            <label for="Message">Message</label>
+          </div>
           <!-- your other form fields go here -->
           <button type="submit">Send</button>
         </form>
