@@ -43,15 +43,15 @@
         }
       }).then(response => {
         if (response.ok) {
-          status.innerHTML = "<p class="lead">Form submitted</p>"
+          status.innerHTML = '<p class="lead">Form submitted</p>'
           form.reset()
         } else {
           response.json().then(data => {
-            status.innerHTML = "<p class="lead">There was a problem submitting your form</p>"
+            status.innerHTML = '<p class="lead">There was a problem submitting your form</p>'
           })
         }
       }).catch(error => {
-        status.innerHTML = "<p class="lead">There was a problem submitting your form</p>"
+        status.innerHTML = '<p class="lead">There was a problem submitting your form</p>'
       });
     }
     form.addEventListener("submit", handleSubmit)
