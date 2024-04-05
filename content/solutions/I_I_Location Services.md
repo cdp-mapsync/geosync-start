@@ -4,6 +4,7 @@ description: ''
 header: Locate I&I within a few hundred feet. Guaranteed Results!
 image: "https://rhborden.com/wp-content/uploads/2024/01/Media-gif-4.gif"
 title: I & I Location Services
+layout: partner.html
 button:
   enable: true
   label: Download Brochure
