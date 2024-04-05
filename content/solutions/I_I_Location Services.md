@@ -2,6 +2,7 @@
 description: ''
 subtitle: ''
 title: I & I Location Services
+layout: partner
 menu:
   main:
     name:  I & I Location Services
