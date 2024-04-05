@@ -18,7 +18,7 @@ benefits:
 * name: Asset Management
   icon: fas fa-shield-alt
   content: Workflows for small to medium size utilities with flexible database templates for water, sewer, storm, and gas.
-  link: /solutions/utility-mapping
+  link: /solutions/assett-management
   label: View
 * name: Cloud Mapping
   icon: fas fa-map
