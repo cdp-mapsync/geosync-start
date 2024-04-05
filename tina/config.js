@@ -76,8 +76,8 @@ export default defineConfig({
         label: "Pages",
         name: "pages",
         path: "content",
-        frontmatterFormat: "toml",
-        frontmatterDelimiters: "+++",
+        frontmatterFormat: "yaml",
+        frontmatterDelimiters: "---",
         match: {
           include: "**/*",
           exclude: "_index",
