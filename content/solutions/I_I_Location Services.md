@@ -6,6 +6,6 @@ menu:
   main:
     name:  I & I Location Services
     parent: Solutions
-    weight: 10
+    weight: 11
 ---
 <iframe src="https://rhborden.com/i-and-i-location-services#main"></iframe>
