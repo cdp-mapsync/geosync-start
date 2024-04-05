@@ -4,9 +4,8 @@ subtitle: ''
 title: I & I Location Services
 menu:
   main:
-    name: Point Cloud (Z-Tools)
+    name:  I & I Location Services
     parent: Solutions
-    weight: 5
-
+    weight: 10
 ---
 <iframe src="https://rhborden.com/i-and-i-location-services#main"></iframe>
