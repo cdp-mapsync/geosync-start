@@ -19,7 +19,7 @@ features:
     link: https://vimeo.com/734988953
   images:
   - /images/feature-2.png
-  content: The GeoSync App runs on Windows, iOS and Android devices providing an easy to interface to start building a map.
+  content: The GeoSync App runs on Windows, iOS and Android devices providing an easy interface to start building a map.
 - title: Add a Leica FLX100 Plus GNSS Device
   button:
     enable: true
