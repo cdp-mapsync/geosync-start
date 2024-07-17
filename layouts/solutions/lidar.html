@@ -1,8 +1,12 @@
 {{ define "main" }}
 {{ partial "page-header.html" . }}
 <section class="section">
-   Using Public LiDAR to generate digital terrain models and contours for use in CAD or GIS. Highlights GeoSync Z-Tools Toolbox for finding, download, clipping, and processing public lidar.
    <div class=container>
+      <div class="row">
+         <div class="col-lg-10 mx-auto">
+           <div class="content">{{ .Content }}</div>
+         </div>
+       </div>
       <div class="row align-items-center mb-6 justify-content-center">
          <div class="col-lg-4 col-md-6 mb-6 mb-lg-0">
             <div style="padding:74.84% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/984302803?h=a8deadf613" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
@@ -45,14 +49,5 @@
          </div>
       </div>
    </div>
-</section>
-<section class="section">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-10 mx-auto">
-        <div class="content">{{ .Content }}</div>
-      </div>
-    </div>
-  </div>
 </section>
 {{ end }}
