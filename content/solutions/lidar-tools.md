@@ -10,7 +10,7 @@ content: Easy to use 3D toolbox for finding, filtering, clipping and visualizing
 image: "/images/geosync_pointcloudtools_web.png"
 menu:
   main:
-    name: LiDAR Tools (Z-Tools)
+    name: Elevation Seminar (Z-Tools)
     parent: Solutions
     weight: 6
 ---
