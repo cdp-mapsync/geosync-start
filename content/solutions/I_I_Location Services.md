@@ -8,7 +8,7 @@ layout: partner
 button:
   enable: true
   label: Download Brochure
-  link: https://rhborden.com/wp-content/uploads/2024/01/Handout-RHB-II-Services.pdf
+  link: https://rhborden.com/wp-content/uploads/2025/03/II-BASINiQ-Handout-2-13-2025.pdf
 menu:
   main:
     name:  I & I Location Services
