@@ -16,5 +16,7 @@ menu:
     weight: 11
 ---
 
-### I&I Locating Services using the iTracker®
-iTracking is the latest in I&I locating technology. Deployed as a network of sensors, iTrackers can monitor hundreds of manholes simultaneously and detect any change to flow caused by infiltration or inflow. After only 1-2 weather events, you can know exactly where your I&I at a fraction of the cost of traditional methods.
+### With BASINiQ I&I Locating Services you get:
+- A done-for-you inflow & infiltration study locating your most significant I&I to within a few hundred feet.
+- Data without smoke testing, expensive flow meters, or confined space entry.
+- Results in a fraction of the time—just a few weather events provide the data—and at significantly less cost.
