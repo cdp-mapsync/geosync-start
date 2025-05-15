@@ -51,11 +51,10 @@
           status.innerHTML = '<p class="lead">Form submitted</p>'
           form.reset()
         } else {
-          console.log(error);
           status.innerHTML = '<p class="lead">There was a problem submitting your form</p>'
         }
       } catch (err) {
-        console.log(error);
+        console.log(err);
         status.innerHTML = '<p class="lead">There was a problem submitting your form</p>'
       }
     }
