@@ -31,13 +31,16 @@
     async function handleSubmit(event) {
       event.preventDefault();
       var status = document.getElementById("form-status");
-      var data = new FormData(event.target);
+      var formData = new FormData(event.target);
+      var data = Object.fromEntries(formData);
+      console.log(data);
       fetch(event.target.action, {
         method: form.method,
-        body: data,
-        headers: {
+        headers: { 
+            'Content-Type': 'application/json',
             'Accept': 'application/json'
-        }
+        },
+        body: JSON.stringify(data)
       }).then(response => {
         if (response.ok) {
           status.innerHTML = '<p class="lead">Form submitted</p>'
