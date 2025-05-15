@@ -45,6 +45,9 @@
         console.log(response);
         if (response.ok) {
           status.innerHTML = '<p class="lead">Form submitted</p>'
+          response.json().then(data => {
+            console.log(data);
+          })
           form.reset()
         } else {
           response.json().then(data => {
